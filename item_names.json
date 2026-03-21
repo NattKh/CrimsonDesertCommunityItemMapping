@@ -38,7 +38,7 @@
     },
     {
       "itemKey": 103,
-      "name": "",
+      "name": "Decent Copper Pouch",
       "category": "Misc"
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "itemKey": 11001,
-      "name": "",
+      "name": "Fishing Rod",
       "category": "Consumable"
     },
     {
@@ -92,6 +92,11 @@
       "category": "Consumable"
     },
     {
+      "itemKey": 26034,
+      "name": "Honey Tea",
+      "category": "Consumable"
+    },
+    {
       "itemKey": 28901,
       "name": "Bread",
       "category": "Cooking"
@@ -118,7 +123,12 @@
     },
     {
       "itemKey": 50003,
-      "name": "",
+      "name": "Poison Arrow",
+      "category": "Ammunition"
+    },
+    {
+      "itemKey": 53003,
+      "name": "Poison Arrow",
       "category": "Ammunition"
     },
     {
@@ -202,6 +212,11 @@
       "category": "Consumable"
     },
     {
+      "itemKey": 200053,
+      "name": "Fallen Kingdom's Sword",
+      "category": "Equipment"
+    },
+    {
       "itemKey": 200077,
       "name": "",
       "category": "Consumable"
@@ -215,6 +230,11 @@
       "itemKey": 200914,
       "name": "",
       "category": "Consumable"
+    },
+    {
+      "itemKey": 210011,
+      "name": "Lambert Axe",
+      "category": "Equipment"
     },
     {
       "itemKey": 230029,
@@ -247,6 +267,11 @@
       "category": "Consumable"
     },
     {
+      "itemKey": 250994,
+      "name": "Bekker Greataxe",
+      "category": "Equipment"
+    },
+    {
       "itemKey": 290017,
       "name": "",
       "category": "Misc"
@@ -265,6 +290,11 @@
       "itemKey": 300003,
       "name": "",
       "category": "Quest"
+    },
+    {
+      "itemKey": 500005,
+      "name": "Patterned Stone Greataxe",
+      "category": "Equipment"
     },
     {
       "itemKey": 700001,
@@ -293,13 +323,18 @@
     },
     {
       "itemKey": 721503,
-      "name": "",
+      "name": "Azurite",
       "category": "Material"
     },
     {
       "itemKey": 721504,
       "name": "",
       "category": "Material"
+    },
+    {
+      "itemKey": 721505,
+      "name": "Bloodstone",
+      "category": "Crafting Material"
     },
     {
       "itemKey": 721506,
@@ -327,18 +362,23 @@
       "category": "Material"
     },
     {
+      "itemKey": 749201,
+      "name": "Horse Tonic",
+      "category": "Misc"
+    },
+    {
       "itemKey": 750002,
       "name": "",
       "category": "Material"
     },
     {
       "itemKey": 750003,
-      "name": "",
+      "name": "Carrot",
       "category": "Material"
     },
     {
       "itemKey": 750004,
-      "name": "",
+      "name": "Beans",
       "category": "Material"
     },
     {
@@ -353,7 +393,7 @@
     },
     {
       "itemKey": 750009,
-      "name": "",
+      "name": "Acorn",
       "category": "Material"
     },
     {
@@ -363,13 +403,18 @@
     },
     {
       "itemKey": 750019,
-      "name": "",
+      "name": "Corn",
       "category": "Ingredient"
     },
     {
       "itemKey": 750024,
       "name": "",
       "category": "Material"
+    },
+    {
+      "itemKey": 750049,
+      "name": "Cheese",
+      "category": "Ingredient"
     },
     {
       "itemKey": 751103,
@@ -388,7 +433,7 @@
     },
     {
       "itemKey": 751111,
-      "name": "",
+      "name": "Garlic",
       "category": "Material"
     },
     {
@@ -412,33 +457,38 @@
       "category": "Material"
     },
     {
+      "itemKey": 751132,
+      "name": "Potato",
+      "category": "Ingredient"
+    },
+    {
       "itemKey": 751133,
       "name": "Sweet Potato",
       "category": "Material"
     },
     {
       "itemKey": 751134,
-      "name": "",
+      "name": "Blackberry",
       "category": "Material"
     },
     {
       "itemKey": 752001,
-      "name": "",
+      "name": "Salt",
       "category": "Material"
     },
     {
       "itemKey": 752003,
-      "name": "",
+      "name": "Sugar",
       "category": "Material"
     },
     {
       "itemKey": 752005,
-      "name": "",
+      "name": "Cooking Oil",
       "category": "Material"
     },
     {
       "itemKey": 752021,
-      "name": "",
+      "name": "Tough Meat",
       "category": "Material"
     },
     {
@@ -450,6 +500,11 @@
       "itemKey": 755015,
       "name": "Egg",
       "category": "Ingredient"
+    },
+    {
+      "itemKey": 756513,
+      "name": "Wild Ginseng",
+      "category": "Material"
     },
     {
       "itemKey": 756604,
@@ -478,12 +533,12 @@
     },
     {
       "itemKey": 795042,
-      "name": "",
+      "name": "Tarnished Necklace",
       "category": "Equipment"
     },
     {
       "itemKey": 795053,
-      "name": "",
+      "name": "Tarnished Ring",
       "category": "Equipment"
     },
     {
@@ -508,12 +563,12 @@
     },
     {
       "itemKey": 950001,
-      "name": "",
+      "name": "Broom",
       "category": "Special"
     },
     {
       "itemKey": 950002,
-      "name": "",
+      "name": "Logging Axe",
       "category": "Special"
     },
     {
@@ -523,7 +578,7 @@
     },
     {
       "itemKey": 950004,
-      "name": "",
+      "name": "Pickaxe",
       "category": "Special"
     },
     {
@@ -532,8 +587,13 @@
       "category": "Special"
     },
     {
+      "itemKey": 950008,
+      "name": "Large Farming Scythe",
+      "category": "Equipment"
+    },
+    {
       "itemKey": 950010,
-      "name": "",
+      "name": "Mallet",
       "category": "Special"
     },
     {

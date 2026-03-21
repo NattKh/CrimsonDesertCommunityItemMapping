@@ -550,6 +550,211 @@
       "itemKey": 950039,
       "name": "",
       "category": "Special"
+    },
+    {
+      "itemKey": 1000313,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000372,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000490,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000547,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000555,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000658,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000683,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000689,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000799,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000806,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000833,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1000952,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001129,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001147,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001189,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001271,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001274,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001278,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001319,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001440,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001523,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001532,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001557,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001560,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001569,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001747,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001754,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001880,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1001959,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1002297,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1002567,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1002929,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1003265,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1003363,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1003687,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1003701,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1163002,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1163042,
+      "name": "",
+      "category": "Equipment"
+    },
+    {
+      "itemKey": 1513000,
+      "name": "",
+      "category": "Mount"
+    },
+    {
+      "itemKey": 2104038,
+      "name": "",
+      "category": "Weapon"
+    },
+    {
+      "itemKey": 2111103,
+      "name": "",
+      "category": "Weapon"
     }
   ]
 }

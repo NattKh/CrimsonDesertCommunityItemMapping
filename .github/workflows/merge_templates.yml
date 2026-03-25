@@ -5,14 +5,14 @@ on:
     paths:
       - 'contributions/*.json'
 
-permissions:
-  contents: write
-
 jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PUSH_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5

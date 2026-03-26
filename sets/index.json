@@ -1,1 +1,12 @@
-{"sets": []}
+{
+  "sets": [
+    {
+      "filename": "starter_gear_god_pack.json",
+      "name": "Starter Gear God Pack",
+      "author": "RicePaddy",
+      "description": "Ynitium Leather Set God",
+      "itemCount": 4,
+      "version": 1
+    }
+  ]
+}

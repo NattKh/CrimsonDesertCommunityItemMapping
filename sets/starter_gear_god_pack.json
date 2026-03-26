@@ -1,0 +1,285 @@
+{
+  "name": "Starter Gear God Pack",
+  "author": "RicePaddy",
+  "description": "Ynitium Leather Set God",
+  "version": 1,
+  "created": "2026-03-26",
+  "items": [
+    {
+      "item_key": 1163045,
+      "item_name": "Ynitium Leather Gloves",
+      "operations": [
+        {
+          "stat_name": "DDD (Damage)",
+          "stat_hash": 1000002,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DDD (Damage)",
+          "stat_hash": 1000002,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DDD (Damage)",
+          "stat_hash": 1000002,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DDD (Damage)",
+          "stat_hash": 1000002,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        }
+      ]
+    },
+    {
+      "item_key": 1163046,
+      "item_name": "Ynitium Leather Boots",
+      "operations": [
+        {
+          "stat_name": "DDD (Damage)",
+          "stat_hash": 1000002,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "CriticalRate",
+          "stat_hash": 1000007,
+          "size_class": "rate",
+          "operation": "set_value",
+          "value": 15
+        },
+        {
+          "stat_name": "DDD (Damage)",
+          "stat_hash": 1000002,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "CriticalRate",
+          "stat_hash": 1000007,
+          "size_class": "rate",
+          "operation": "set_value",
+          "value": 15
+        },
+        {
+          "stat_name": "DDD (Damage)",
+          "stat_hash": 1000002,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "CriticalRate",
+          "stat_hash": 1000007,
+          "size_class": "rate",
+          "operation": "set_value",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "item_key": 1000296,
+      "item_name": "Ynitium Leather Cloak",
+      "operations": [
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        }
+      ]
+    },
+    {
+      "item_key": 1163044,
+      "item_name": "Ynitium Leather Armor",
+      "operations": [
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        },
+        {
+          "stat_name": "DPV (Defense)",
+          "stat_hash": 1000003,
+          "size_class": "flat2",
+          "operation": "set_value",
+          "value": 999999
+        }
+      ]
+    }
+  ]
+}

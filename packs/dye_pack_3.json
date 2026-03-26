@@ -1,0 +1,34 @@
+{
+  "name": "Dye Pack 3",
+  "author": "Hatrack",
+  "description": "Dyes 11-15: Purple to Purple",
+  "version": 1,
+  "created": "2026-03-24",
+  "items": [
+    {
+      "item_key": 1001625,
+      "name": "Bright Purple Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001626,
+      "name": "Rich Purple Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001627,
+      "name": "Purple Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001628,
+      "name": "Dark Purple Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001629,
+      "name": "Deep Purple Dye",
+      "count": 1
+    }
+  ]
+}

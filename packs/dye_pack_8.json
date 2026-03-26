@@ -1,0 +1,34 @@
+{
+  "name": "Dye Pack 8",
+  "author": "Hatrack",
+  "description": "Dyes 36-40: Spring Green to Spring Green",
+  "version": 1,
+  "created": "2026-03-24",
+  "items": [
+    {
+      "item_key": 1001650,
+      "name": "Bright Spring Green Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001651,
+      "name": "Rich Spring Green Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001652,
+      "name": "Spring Green Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001653,
+      "name": "Dark Spring Green Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001654,
+      "name": "Deep Spring Green Dye",
+      "count": 1
+    }
+  ]
+}

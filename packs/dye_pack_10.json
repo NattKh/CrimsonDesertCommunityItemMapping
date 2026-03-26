@@ -1,0 +1,34 @@
+{
+  "name": "Dye Pack 10",
+  "author": "Hatrack",
+  "description": "Dyes 46-50: Orange to Orange",
+  "version": 1,
+  "created": "2026-03-24",
+  "items": [
+    {
+      "item_key": 1001660,
+      "name": "Bright Orange Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001661,
+      "name": "Rich Orange Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001662,
+      "name": "Orange Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001663,
+      "name": "Dark Orange Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001664,
+      "name": "Deep Orange Dye",
+      "count": 1
+    }
+  ]
+}

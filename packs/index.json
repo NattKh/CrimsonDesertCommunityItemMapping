@@ -31,6 +31,86 @@
       "description": "Swap a consumable to 20x Narima's Horn — instant Dragon cooldown reset",
       "itemCount": 1,
       "version": 1
+    },
+    {
+      "filename": "dye_pack_1.json",
+      "name": "Dye Pack 1",
+      "author": "Hatrack",
+      "description": "Dyes 1-5: Red to Red",
+      "itemCount": 5,
+      "version": 1
+    },
+    {
+      "filename": "dye_pack_2.json",
+      "name": "Dye Pack 2",
+      "author": "Hatrack",
+      "description": "Dyes 6-10: Violet to Violet",
+      "itemCount": 5,
+      "version": 1
+    },
+    {
+      "filename": "dye_pack_3.json",
+      "name": "Dye Pack 3",
+      "author": "Hatrack",
+      "description": "Dyes 11-15: Purple to Purple",
+      "itemCount": 5,
+      "version": 1
+    },
+    {
+      "filename": "dye_pack_4.json",
+      "name": "Dye Pack 4",
+      "author": "Hatrack",
+      "description": "Dyes 16-20: Blue to Blue",
+      "itemCount": 5,
+      "version": 1
+    },
+    {
+      "filename": "dye_pack_5.json",
+      "name": "Dye Pack 5",
+      "author": "Hatrack",
+      "description": "Dyes 21-25: Sky Blue to Sky Blue",
+      "itemCount": 5,
+      "version": 1
+    },
+    {
+      "filename": "dye_pack_6.json",
+      "name": "Dye Pack 6",
+      "author": "Hatrack",
+      "description": "Dyes 26-30: Teal to Teal",
+      "itemCount": 5,
+      "version": 1
+    },
+    {
+      "filename": "dye_pack_7.json",
+      "name": "Dye Pack 7",
+      "author": "Hatrack",
+      "description": "Dyes 31-35: Green to Green",
+      "itemCount": 5,
+      "version": 1
+    },
+    {
+      "filename": "dye_pack_8.json",
+      "name": "Dye Pack 8",
+      "author": "Hatrack",
+      "description": "Dyes 36-40: Spring Green to Spring Green",
+      "itemCount": 5,
+      "version": 1
+    },
+    {
+      "filename": "dye_pack_9.json",
+      "name": "Dye Pack 9",
+      "author": "Hatrack",
+      "description": "Dyes 41-45: Yellow to Yellow",
+      "itemCount": 5,
+      "version": 1
+    },
+    {
+      "filename": "dye_pack_10.json",
+      "name": "Dye Pack 10",
+      "author": "Hatrack",
+      "description": "Dyes 46-50: Orange to Orange",
+      "itemCount": 5,
+      "version": 1
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "name": "Dye Pack 5",
+  "author": "Hatrack",
+  "description": "Dyes 21-25: Sky Blue to Sky Blue",
+  "version": 1,
+  "created": "2026-03-24",
+  "items": [
+    {
+      "item_key": 1001635,
+      "name": "Bright Sky Blue Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001636,
+      "name": "Rich Sky Blue Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001637,
+      "name": "Sky Blue Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001638,
+      "name": "Dark Sky Blue Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001639,
+      "name": "Deep Sky Blue Dye",
+      "count": 1
+    }
+  ]
+}

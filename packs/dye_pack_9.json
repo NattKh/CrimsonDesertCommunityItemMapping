@@ -1,0 +1,34 @@
+{
+  "name": "Dye Pack 9",
+  "author": "Hatrack",
+  "description": "Dyes 41-45: Yellow to Yellow",
+  "version": 1,
+  "created": "2026-03-24",
+  "items": [
+    {
+      "item_key": 1001655,
+      "name": "Bright Yellow Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001656,
+      "name": "Rich Yellow Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001657,
+      "name": "Yellow Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001658,
+      "name": "Dark Yellow Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001659,
+      "name": "Deep Yellow Dye",
+      "count": 1
+    }
+  ]
+}

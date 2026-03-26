@@ -1,0 +1,34 @@
+{
+  "name": "Dye Pack 7",
+  "author": "Hatrack",
+  "description": "Dyes 31-35: Green to Green",
+  "version": 1,
+  "created": "2026-03-24",
+  "items": [
+    {
+      "item_key": 1001645,
+      "name": "Bright Green Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001646,
+      "name": "Rich Green Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001647,
+      "name": "Green Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001648,
+      "name": "Dark Green Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001649,
+      "name": "Deep Green Dye",
+      "count": 1
+    }
+  ]
+}

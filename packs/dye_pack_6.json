@@ -1,0 +1,34 @@
+{
+  "name": "Dye Pack 6",
+  "author": "Hatrack",
+  "description": "Dyes 26-30: Teal to Teal",
+  "version": 1,
+  "created": "2026-03-24",
+  "items": [
+    {
+      "item_key": 1001640,
+      "name": "Bright Teal Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001641,
+      "name": "Rich Teal Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001642,
+      "name": "Teal Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001643,
+      "name": "Dark Teal Dye",
+      "count": 1
+    },
+    {
+      "item_key": 1001644,
+      "name": "Deep Teal Dye",
+      "count": 1
+    }
+  ]
+}

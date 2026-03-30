@@ -2,7 +2,7 @@
   "items": [
     {
       "itemKey": 1,
-      "name": "Copper",
+      "name": "Silver",
       "category": "Currency",
       "internalName": "Money_Copper",
       "maxStack": 100000
@@ -13276,14 +13276,14 @@
       "itemKey": 1000186,
       "name": "Goldleaves' Cloth Armor",
       "category": "Equipment",
-      "internalName": "Goblin_Merchant_Fabric_Armor_���",
+      "internalName": "Goblin_Merchant_Fabric_Armor_   ",
       "maxStack": 1
     },
     {
       "itemKey": 1000187,
       "name": "Nibrak Cloth Armor",
       "category": "Equipment",
-      "internalName": "Goblin_Merchant_Fabric_Armor_���",
+      "internalName": "Goblin_Merchant_Fabric_Armor_   ",
       "maxStack": 1
     },
     {
@@ -13297,7 +13297,7 @@
       "itemKey": 1000189,
       "name": "Goldleaves' Cloth Armor",
       "category": "Equipment",
-      "internalName": "Goblin_Merchant_Fabric_Armor_���",
+      "internalName": "Goblin_Merchant_Fabric_Armor_   ",
       "maxStack": 1
     },
     {
@@ -13955,14 +13955,14 @@
       "itemKey": 1000283,
       "name": "Goldleaves' Cloth Cloak",
       "category": "Equipment",
-      "internalName": "Goblin_Merchant_Fabric_Cloak_���",
+      "internalName": "Goblin_Merchant_Fabric_Cloak_   ",
       "maxStack": 1
     },
     {
       "itemKey": 1000284,
       "name": "Goldleaves' Cloth Cloak",
       "category": "Equipment",
-      "internalName": "Goblin_Merchant_Fabric_Cloak_���",
+      "internalName": "Goblin_Merchant_Fabric_Cloak_   ",
       "maxStack": 1
     },
     {

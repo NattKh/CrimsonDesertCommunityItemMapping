@@ -1,0 +1,2097 @@
+{
+  "version": 1,
+  "description": "Community-mapped names for Crimson Desert equipment modding. THREE SEPARATE NAMESPACES - same key number means different things! stats = enchant level stats (statusinfo.pabgb), buffs = equipment buffs (buffinfo.pabgb), passives = passive skills (skill.pabgb). Contributions welcome: verify in-game, set verified=true, submit PR.",
+  "stats": [
+    {
+      "key": 1000000,
+      "name": "Max HP",
+      "type": "flat",
+      "verified": true
+    },
+    {
+      "key": 1000001,
+      "name": "Max Stamina",
+      "type": "flat",
+      "verified": true
+    },
+    {
+      "key": 1000002,
+      "name": "DDD / Damage Dealt",
+      "type": "flat",
+      "verified": true
+    },
+    {
+      "key": 1000003,
+      "name": "DPV / Defense",
+      "type": "flat",
+      "verified": true
+    },
+    {
+      "key": 1000004,
+      "name": "DDD Rate",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000005,
+      "name": "DPV Rate",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000006,
+      "name": "Critical Rate",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000007,
+      "name": "Critical Damage",
+      "type": "flat",
+      "verified": true
+    },
+    {
+      "key": 1000008,
+      "name": "Attack Damage Rate",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000009,
+      "name": "Attacked Damage Reduction",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000010,
+      "name": "Attack Speed Rate",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000011,
+      "name": "Move Speed Rate",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000012,
+      "name": "Casting Speed Rate",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000013,
+      "name": "All Resistance",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000014,
+      "name": "Fire Resistance",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000015,
+      "name": "Ice Resistance",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000016,
+      "name": "Lightning Resistance",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000017,
+      "name": "HP Regen",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000018,
+      "name": "Stamina Regen",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000019,
+      "name": "Guard PV Rate",
+      "type": "rate",
+      "verified": true
+    },
+    {
+      "key": 1000020,
+      "name": "Max Spirit (MP)",
+      "type": "flat",
+      "verified": true
+    },
+    {
+      "key": 1000024,
+      "name": "Back Attack Damage",
+      "type": "flat",
+      "verified": true
+    },
+    {
+      "key": 1000025,
+      "name": "Down Attack Damage",
+      "type": "flat",
+      "verified": true
+    },
+    {
+      "key": 1000026,
+      "name": "Air Attack Damage",
+      "type": "flat",
+      "verified": true
+    }
+  ],
+  "buffs": [
+    {
+      "key": 1000000,
+      "name": "Temperature",
+      "internalName": "BuffLevel_Temperature",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000001,
+      "name": "Health",
+      "internalName": "BuffLevel_HP",
+      "effect": "Max Hp +#",
+      "verified": false
+    },
+    {
+      "key": 1000002,
+      "name": "Spirit",
+      "internalName": "BuffLevel_MP",
+      "effect": "Max Mp +#",
+      "verified": false
+    },
+    {
+      "key": 1000003,
+      "name": "Stamina",
+      "internalName": "BuffLevel_SP",
+      "effect": "Max Stamina +#",
+      "verified": false
+    },
+    {
+      "key": 1000004,
+      "name": "Attack",
+      "internalName": "BuffLevel_DDD",
+      "effect": "DDD: +#",
+      "verified": false
+    },
+    {
+      "key": 1000005,
+      "name": "Defense",
+      "internalName": "BuffLevel_DPV",
+      "effect": "DPV: +#",
+      "verified": false
+    },
+    {
+      "key": 1000006,
+      "name": "Attack Speed",
+      "internalName": "BuffLevel_AttackSpeedRate",
+      "effect": "AttackSpeedRate: Lv +#",
+      "verified": false
+    },
+    {
+      "key": 1000007,
+      "name": "Movement Speed",
+      "internalName": "BuffLevel_MoveSpeedRate",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000008,
+      "name": "HPRegen",
+      "internalName": "BuffLevel_HPRegen",
+      "effect": "Hp: +# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000009,
+      "name": "MpRegen",
+      "internalName": "BuffLevel_MpRegen",
+      "effect": "Mp: +# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000010,
+      "name": "Intimidation",
+      "internalName": "BuffLevel_Pressure",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000011,
+      "name": "Damage Reduction",
+      "internalName": "BuffLevel_AttackedDamageReduction",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000012,
+      "name": "Fire Resistance",
+      "internalName": "BuffLevel_FireResistance",
+      "effect": "Burn Immunity / Burn Resistance / Heat Immunity",
+      "verified": false
+    },
+    {
+      "key": 1000013,
+      "name": "Ice Resistance",
+      "internalName": "BuffLevel_IceResistance",
+      "effect": "Freeze Immunity / Freeze Resistance / Cold Immunity",
+      "verified": false
+    },
+    {
+      "key": 1000014,
+      "name": "Lightning Resistance",
+      "internalName": "BuffLevel_ElectricityResistance",
+      "effect": "Shock Immunity / Shock Resistance",
+      "verified": false
+    },
+    {
+      "key": 1000015,
+      "name": "StaminaUseDecreaseRate",
+      "internalName": "BuffLevel_StaminaUseDecreaseRate",
+      "effect": "Stamina Cost -#% / Stamina Cost +#%",
+      "verified": false
+    },
+    {
+      "key": 1000016,
+      "name": "MaxHPPercent",
+      "internalName": "BuffLevel_MaxHPPercent",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000017,
+      "name": "IceShield",
+      "internalName": "BuffLevel_IceShield",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000018,
+      "name": "MinHP",
+      "internalName": "BuffLevel_MinHP",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000019,
+      "name": "FireArrow",
+      "internalName": "BuffLevel_FireArrow",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000020,
+      "name": "Poison",
+      "internalName": "BuffLevel_Poison",
+      "effect": "Hp: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000021,
+      "name": "Debuff Resistance",
+      "internalName": "BuffLevel_Confusion",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000022,
+      "name": "PuplePoison",
+      "internalName": "BuffLevel_PuplePoison",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000023,
+      "name": "WhitePoison",
+      "internalName": "BuffLevel_WhitePoison",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000024,
+      "name": "AIType Tier1",
+      "internalName": "BuffLevel_AIType_Tier1",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000025,
+      "name": "NonSlip",
+      "internalName": "BuffLevel_NonSlip",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000026,
+      "name": "Bleeding",
+      "internalName": "BuffLevel_Bleeding",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000027,
+      "name": "RedLightning",
+      "internalName": "BuffLevel_RedLightning",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000028,
+      "name": "Bismuth",
+      "internalName": "BuffLevel_Bismuth",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000029,
+      "name": "BossWeaken",
+      "internalName": "BuffLevel_BossWeaken",
+      "effect": "DPV: -#",
+      "verified": false
+    },
+    {
+      "key": 1000030,
+      "name": "DOT",
+      "internalName": "BuffLevel_DOT",
+      "effect": "Hp: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000031,
+      "name": "LavaGas",
+      "internalName": "BuffLevel_LavaGas",
+      "effect": "Hp: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000032,
+      "name": "AbyssPoison",
+      "internalName": "BuffLevel_AbyssPoison",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000033,
+      "name": "SwarmBee",
+      "internalName": "BuffLevel_SwarmBee",
+      "effect": "Hp: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000034,
+      "name": "SwarmSpider",
+      "internalName": "BuffLevel_SwarmSpider",
+      "effect": "Hp: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000035,
+      "name": "SwarmRat",
+      "internalName": "BuffLevel_SwarmRat",
+      "effect": "Hp: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000036,
+      "name": "SwarmLocust",
+      "internalName": "BuffLevel_SwarmLocust",
+      "effect": "Hp: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000037,
+      "name": "DetectDistance",
+      "internalName": "BuffLevel_DetectDistance",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000038,
+      "name": "SuperArmor",
+      "internalName": "BuffLevel_SuperArmor",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000039,
+      "name": "Avoid",
+      "internalName": "BuffLevel_Avoid",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000040,
+      "name": "FireWeapon",
+      "internalName": "BuffLevel_FireWeapon",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000041,
+      "name": "NatureProtect",
+      "internalName": "BuffLevel_NatureProtect",
+      "effect": "DPV: +#",
+      "verified": false
+    },
+    {
+      "key": 1000042,
+      "name": "Drunken",
+      "internalName": "BuffLevel_Drunken",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000043,
+      "name": "Desert NonepalayZone",
+      "internalName": "BuffLevel_Desert_NonepalayZone",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000044,
+      "name": "IceTerrain",
+      "internalName": "BuffLevel_IceTerrain",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000045,
+      "name": "Guard",
+      "internalName": "BuffLevel_Guard",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000046,
+      "name": "StaminaRegen",
+      "internalName": "BuffLevel_StaminaRegen",
+      "effect": "Stamina: +# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000047,
+      "name": "Abyss HP",
+      "internalName": "BuffLevel_Abyss_HP",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000048,
+      "name": "Abyss MP",
+      "internalName": "BuffLevel_Abyss_MP",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000049,
+      "name": "Abyss SP",
+      "internalName": "BuffLevel_Abyss_SP",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000050,
+      "name": "Food MaxHP",
+      "internalName": "BuffLevel_Food_MaxHP",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000051,
+      "name": "HP Dot Damage",
+      "internalName": "BuffLevel_HP_Dot_Damage",
+      "effect": "Hp: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000052,
+      "name": "Mp Dot Damage",
+      "internalName": "BuffLevel_Mp_Dot_Damage",
+      "effect": "Mp: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000053,
+      "name": "Sp Dot Damage",
+      "internalName": "BuffLevel_Sp_Dot_Damage",
+      "effect": "Stamina: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000054,
+      "name": "MachineOverload",
+      "internalName": "BuffLevel_MachineOverload",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000055,
+      "name": "Food StaminaUseDecreaseRate",
+      "internalName": "BuffLevel_Food_StaminaUseDecreaseRate",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000056,
+      "name": "AIDifficulty",
+      "internalName": "BuffLevel_AIDifficulty",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000057,
+      "name": "DetectBrightness",
+      "internalName": "BuffLevel_DetectBrightness",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000058,
+      "name": "NatureMpRegen",
+      "internalName": "BuffLevel_NatureMpRegen",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000059,
+      "name": "NatureHpRegen",
+      "internalName": "BuffLevel_NatureHpRegen",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000060,
+      "name": "Lava",
+      "internalName": "BuffLevel_Lava",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000061,
+      "name": "SpiderWeb",
+      "internalName": "BuffLevel_SpiderWeb",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000062,
+      "name": "Comma Symptom",
+      "internalName": "BuffLevel_Comma_Symptom",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000063,
+      "name": "SulphurGas",
+      "internalName": "BuffLevel_SulphurGas",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000064,
+      "name": "AIType Tier2",
+      "internalName": "BuffLevel_AIType_Tier2",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000065,
+      "name": "SpiderWeb Player",
+      "internalName": "BuffLevel_SpiderWeb_Player",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000066,
+      "name": "Equipment Drop Rate",
+      "internalName": "BuffLevel_EquipDropRate",
+      "effect": "#% chance to disarm enemies on hit",
+      "verified": false
+    },
+    {
+      "key": 1000067,
+      "name": "Lightning",
+      "internalName": "BuffLevel_Electricity",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000068,
+      "name": "DetectReaction",
+      "internalName": "BuffLevel_DetectReaction",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000069,
+      "name": "Useless Faction Hide",
+      "internalName": "BuffLevel_Useless_Faction_Hide",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000070,
+      "name": "Blizzard",
+      "internalName": "BuffLevel_Blizzard",
+      "effect": "Hp: -# every #s sec",
+      "verified": false
+    },
+    {
+      "key": 1000071,
+      "name": "CollectDrop Ore",
+      "internalName": "BuffLevel_CollectDrop_Ore",
+      "effect": "#% chance to mine additional ore",
+      "verified": false
+    },
+    {
+      "key": 1000072,
+      "name": "CollectDrop Plant",
+      "internalName": "BuffLevel_CollectDrop_Plant",
+      "effect": "#% chance to gather additional items",
+      "verified": false
+    },
+    {
+      "key": 1000073,
+      "name": "CollectDrop Animal",
+      "internalName": "BuffLevel_CollectDrop_Animal",
+      "effect": "#% chance to skin additional hide",
+      "verified": false
+    },
+    {
+      "key": 1000074,
+      "name": "Critical Rate",
+      "internalName": "BuffLevel_CriticalRate",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000075,
+      "name": "Blizzard NonepalayZone",
+      "internalName": "BuffLevel_Blizzard_NonepalayZone",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000076,
+      "name": "Potion DDD",
+      "internalName": "BuffLevel_Potion_DDD",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000077,
+      "name": "Water NonepalayZone",
+      "internalName": "BuffLevel_Water_NonepalayZone",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000078,
+      "name": "CombatHigh",
+      "internalName": "BuffLevel_CombatHigh",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000079,
+      "name": "Normal NonepalayZone",
+      "internalName": "BuffLevel_Normal_NonepalayZone",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000080,
+      "name": "Temperature Boss",
+      "internalName": "BuffLevel_Temperature_Boss",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000081,
+      "name": "Boss Immune",
+      "internalName": "BuffLevel_Boss_Immune",
+      "effect": "Daze Immunity",
+      "verified": false
+    },
+    {
+      "key": 1000082,
+      "name": "Accuracy",
+      "internalName": "BuffLevel_DHIT",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000083,
+      "name": "Waterfall",
+      "internalName": "BuffLevel_Waterfall",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000084,
+      "name": "BlockDamage Situation",
+      "internalName": "BuffLevel_BlockDamage_Situation",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000085,
+      "name": "FireFist",
+      "internalName": "BuffLevel_FireFist",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000086,
+      "name": "BattleOrder",
+      "internalName": "BuffLevel_BattleOrder",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000087,
+      "name": "Equip Set Stealth Human",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Human",
+      "effect": "Civilian Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000088,
+      "name": "Passive DarknessKingHalberd",
+      "internalName": "BuffLevel_Passive_DarknessKingHalberd",
+      "effect": "Frost Spike (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000089,
+      "name": "FoodSkillLevelUp",
+      "internalName": "BuffLevel_FoodSkillLevelUp",
+      "effect": "Food Effect Lv +#",
+      "verified": false
+    },
+    {
+      "key": 1000090,
+      "name": "Machine AddDamageRate",
+      "internalName": "BuffLevel_Machine_AddDamageRate",
+      "effect": "+#% damage to machines",
+      "verified": false
+    },
+    {
+      "key": 1000091,
+      "name": "ReduceCraftMaterial",
+      "internalName": "BuffLevel_ReduceCraftMaterial",
+      "effect": "#% chance to save 1 crafting material",
+      "verified": false
+    },
+    {
+      "key": 1000092,
+      "name": "JijeongtaWeaken",
+      "internalName": "BuffLevel_JijeongtaWeaken",
+      "effect": "DPV: -#",
+      "verified": false
+    },
+    {
+      "key": 1000093,
+      "name": "CollectDrop Log",
+      "internalName": "BuffLevel_CollectDrop_Log",
+      "effect": "#% chance to log additional timber",
+      "verified": false
+    },
+    {
+      "key": 1000094,
+      "name": "SmithStone DDD",
+      "internalName": "BuffLevel_SmithStone_DDD",
+      "effect": "DDD: Lv +#",
+      "verified": false
+    },
+    {
+      "key": 1000095,
+      "name": "ChangeElementalStatSpeed",
+      "internalName": "BuffLevel_ChangeElementalStatSpeed",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000096,
+      "name": "Socket AttackDamageReduction",
+      "internalName": "BuffLevel_Socket_AttackDamageReduction",
+      "effect": "AttackedDamageReduction#",
+      "verified": false
+    },
+    {
+      "key": 1000097,
+      "name": "Defense Efficiency",
+      "internalName": "BuffLevel_Socket_GuardPVRate",
+      "effect": "Guard Stamina Cost -#%",
+      "verified": false
+    },
+    {
+      "key": 1000098,
+      "name": "JijeongtaWeakenBreakable",
+      "internalName": "BuffLevel_JijeongtaWeakenBreakable",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000099,
+      "name": "AdditionalFriendly",
+      "internalName": "BuffLevel_AdditionalFriendly",
+      "effect": "+# Trust Gain",
+      "verified": false
+    },
+    {
+      "key": 1000100,
+      "name": "Climb Speed Multiplier",
+      "internalName": "BuffLevel_Socket_ClimbSpeedRate",
+      "effect": "ClimbSpeedRate#%",
+      "verified": false
+    },
+    {
+      "key": 1000101,
+      "name": "Food Poison",
+      "internalName": "BuffLevel_Food_Poison",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000102,
+      "name": "MountedHit",
+      "internalName": "BuffLevel_MountedHit",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000103,
+      "name": "Legendary Wolf Effect",
+      "internalName": "BuffLevel_Legendary_Wolf_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000104,
+      "name": "Trap MoveSpeedRate",
+      "internalName": "BuffLevel_Trap_MoveSpeedRate",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000105,
+      "name": "Drop Log",
+      "internalName": "BuffLevel_Drop_Log",
+      "effect": "Expert Logging / Logging Mastery",
+      "verified": false
+    },
+    {
+      "key": 1000106,
+      "name": "ReduceFishingTime",
+      "internalName": "BuffLevel_ReduceFishingTime",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000107,
+      "name": "Swim Speed Multiplier",
+      "internalName": "BuffLevel_Socket_SwimSpeedRate",
+      "effect": "SwimSpeedRate#%",
+      "verified": false
+    },
+    {
+      "key": 1000108,
+      "name": "CommonHexe AddDamageRate",
+      "internalName": "BuffLevel_CommonHexe_AddDamageRate",
+      "effect": "+#% damage to earthen beings",
+      "verified": false
+    },
+    {
+      "key": 1000109,
+      "name": "CommonHumanoid AddDamageRate",
+      "internalName": "BuffLevel_CommonHumanoid_AddDamageRate",
+      "effect": "+#% damage to humanoids",
+      "verified": false
+    },
+    {
+      "key": 1000110,
+      "name": "CommonGolem AddDamageRate",
+      "internalName": "BuffLevel_CommonGolem_AddDamageRate",
+      "effect": "+#% damage to Walkers",
+      "verified": false
+    },
+    {
+      "key": 1000111,
+      "name": "Boss AddDamageRate",
+      "internalName": "BuffLevel_Boss_AddDamageRate",
+      "effect": "+#% damage to mighty foes",
+      "verified": false
+    },
+    {
+      "key": 1000112,
+      "name": "CommonAnimal AddDamageRate",
+      "internalName": "BuffLevel_CommonAnimal_AddDamageRate",
+      "effect": "+#% damage to beasts",
+      "verified": false
+    },
+    {
+      "key": 1000113,
+      "name": "Creature AddDamageRate",
+      "internalName": "BuffLevel_Creature_AddDamageRate",
+      "effect": "+#% damage to Abyssal creatures",
+      "verified": false
+    },
+    {
+      "key": 1000114,
+      "name": "Socket ContributionExp",
+      "internalName": "BuffLevel_Socket_ContributionExp",
+      "effect": "+ #% Contribution EXP Gain",
+      "verified": false
+    },
+    {
+      "key": 1000115,
+      "name": "Socket SkillPointExp",
+      "internalName": "BuffLevel_Socket_SkillPointExp",
+      "effect": "+ #% Skill EXP Gain",
+      "verified": false
+    },
+    {
+      "key": 1000116,
+      "name": "Socket BlockAmmoConsume",
+      "internalName": "BuffLevel_Socket_BlockAmmoConsume",
+      "effect": "#% chance to not consume arrows",
+      "verified": false
+    },
+    {
+      "key": 1000117,
+      "name": "Increased Silver Drop Rate",
+      "internalName": "BuffLevel_Socket_AddMoneyDropRate",
+      "effect": "+ #% Silver Gain",
+      "verified": false
+    },
+    {
+      "key": 1000118,
+      "name": "Ludvig Effect",
+      "internalName": "BuffLevel_Ludvig_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000119,
+      "name": "Socket AdditionalThief",
+      "internalName": "BuffLevel_Socket_AdditionalThief",
+      "effect": "#% chance to pickpocket additional items",
+      "verified": false
+    },
+    {
+      "key": 1000120,
+      "name": "Passive Bastier Gear",
+      "internalName": "BuffLevel_Passive_Bastier_Gear",
+      "effect": "Flames of Judgment (imbue Fire)",
+      "verified": false
+    },
+    {
+      "key": 1000121,
+      "name": "GearhornRenwOverload",
+      "internalName": "BuffLevel_GearhornRenwOverload",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000122,
+      "name": "Socket StaminaRegen",
+      "internalName": "BuffLevel_Socket_StaminaRegen",
+      "effect": "Stamina Regen +#",
+      "verified": false
+    },
+    {
+      "key": 1000123,
+      "name": "AdditionalVehicleExp",
+      "internalName": "BuffLevel_AdditionalVehicleExp",
+      "effect": "+# Horse EXP Gain",
+      "verified": false
+    },
+    {
+      "key": 1000124,
+      "name": "AdditionalPetFriendly",
+      "internalName": "BuffLevel_AdditionalPetFriendly",
+      "effect": "+# Pet Trust Gain",
+      "verified": false
+    },
+    {
+      "key": 1000125,
+      "name": "Passive Forgotten General",
+      "internalName": "BuffLevel_Passive_Forgotten_General",
+      "effect": "Judgment of the Soul (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000126,
+      "name": "Equip Set Stealth Faction LonelyJackal",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_LonelyJackal",
+      "effect": "Jackal Disguise / Black Bear Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000127,
+      "name": "Equip Set Stealth Faction DrunkenBlackBears",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_DrunkenBlackBears",
+      "effect": "Jackal Disguise / Black Bear Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000128,
+      "name": "Equip Set Stealth Faction DemenissMP",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_DemenissMP",
+      "effect": "Demenissian Faction Disguise / Righteous Inquisitor Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000129,
+      "name": "Passive Titan",
+      "internalName": "BuffLevel_Passive_Titan",
+      "effect": "Lightning God's Affliction (Key before being hit)",
+      "verified": false
+    },
+    {
+      "key": 1000130,
+      "name": "Passive Myurdin Sword",
+      "internalName": "BuffLevel_Passive_Myurdin_Sword",
+      "effect": "Groundsurge (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000131,
+      "name": "Passive SplitHornSword",
+      "internalName": "BuffLevel_Passive_SplitHornSword",
+      "effect": "Wind Slash (Key after a certain action)",
+      "verified": false
+    },
+    {
+      "key": 1000132,
+      "name": "Passive SizlekSword",
+      "internalName": "BuffLevel_Passive_SizlekSword",
+      "effect": "Storm Fang (imbue Lightning)",
+      "verified": false
+    },
+    {
+      "key": 1000133,
+      "name": "Passive MasterDoo",
+      "internalName": "BuffLevel_Passive_MasterDoo",
+      "effect": "Karmic Pulse (Key repeatedly)",
+      "verified": false
+    },
+    {
+      "key": 1000134,
+      "name": "Passive CrowmanSword",
+      "internalName": "BuffLevel_Passive_CrowmanSword",
+      "effect": "Crow's Pursuit (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000135,
+      "name": "Passive CaliburnRapier",
+      "internalName": "BuffLevel_Passive_CaliburnRapier",
+      "effect": "Abyssal Rays (Key after a certain action)",
+      "verified": false
+    },
+    {
+      "key": 1000136,
+      "name": "Passive ReedDevilSword",
+      "internalName": "BuffLevel_Passive_ReedDevilSword",
+      "effect": "Slashing Reeds (Key after being hit)",
+      "verified": false
+    },
+    {
+      "key": 1000137,
+      "name": "Passive Merrick",
+      "internalName": "BuffLevel_Passive_Merrick",
+      "effect": "Order from Above (finisher)",
+      "verified": false
+    },
+    {
+      "key": 1000138,
+      "name": "Passive HamondBindel LongSword",
+      "internalName": "BuffLevel_Passive_HamondBindel_LongSword",
+      "effect": "Hound's Claws (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000139,
+      "name": "Passive RedsentinelBow",
+      "internalName": "BuffLevel_Passive_RedsentinelBow",
+      "effect": "Arrow Rain (finisher)",
+      "verified": false
+    },
+    {
+      "key": 1000140,
+      "name": "Ludvig",
+      "internalName": "BuffLevel_Passive_Ludvig",
+      "effect": "Orbs of Lightning (imbue Lightning)",
+      "verified": false
+    },
+    {
+      "key": 1000141,
+      "name": "StaminaUseIncreaseRate",
+      "internalName": "BuffLevel_StaminaUseIncreaseRate",
+      "effect": "Stamina Regen -#% / Stamina Regen +#%",
+      "verified": false
+    },
+    {
+      "key": 1000142,
+      "name": "Passive Antumbra TwoHandSword",
+      "internalName": "BuffLevel_Passive_Antumbra_TwoHandSword",
+      "effect": "Wound of Darkness (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000143,
+      "name": "Temperature Wagon",
+      "internalName": "BuffLevel_Temperature_Wagon",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000144,
+      "name": "Passive Ator Sword",
+      "internalName": "BuffLevel_Passive_Ator_Sword",
+      "effect": "Ator's Orb (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000145,
+      "name": "Temperature Debuff Cold",
+      "internalName": "BuffLevel_Temperature_Debuff_Cold",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000146,
+      "name": "Temperature Debuff Hot",
+      "internalName": "BuffLevel_Temperature_Debuff_Hot",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000147,
+      "name": "Socket AddCriticalRateByMaterialKey PlateArmor",
+      "internalName": "BuffLevel_Socket_AddCriticalRateByMaterialKey_PlateArmor",
+      "effect": "+#% Critical Rate against plate armor",
+      "verified": false
+    },
+    {
+      "key": 1000148,
+      "name": "Shackle of Might",
+      "internalName": "BuffLevel_Passive_SoulKnight_OneHandSword",
+      "effect": "Spirit's Judgment (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000149,
+      "name": "AbyssGrass Immune",
+      "internalName": "BuffLevel_AbyssGrass_Immune",
+      "effect": "Abyssal Toxin Immunity",
+      "verified": false
+    },
+    {
+      "key": 1000150,
+      "name": "Passive Hyena PoisonImmune",
+      "internalName": "BuffLevel_Passive_Hyena_PoisonImmune",
+      "effect": "Poison Immunity",
+      "verified": false
+    },
+    {
+      "key": 1000151,
+      "name": "Passive Immune Bismuth",
+      "internalName": "BuffLevel_Passive_Immune_Bismuth",
+      "effect": "Petrification Immunity",
+      "verified": false
+    },
+    {
+      "key": 1000152,
+      "name": "Passive DeerKingHelm",
+      "internalName": "BuffLevel_Passive_DeerKingHelm",
+      "effect": "+35% Turning Slash Damage",
+      "verified": false
+    },
+    {
+      "key": 1000153,
+      "name": "Socket AddKillSkillLevel",
+      "internalName": "BuffLevel_Socket_AddKillSkillLevel",
+      "effect": "Recover resources on kill",
+      "verified": false
+    },
+    {
+      "key": 1000154,
+      "name": "Socket AddCriticalRateByMaterialKey LeatherArmor",
+      "internalName": "BuffLevel_Socket_AddCriticalRateByMaterialKey_LeatherArmor",
+      "effect": "+#% Critical Rate against leather armor",
+      "verified": false
+    },
+    {
+      "key": 1000155,
+      "name": "Queen Spider",
+      "internalName": "BuffLevel_Passive_QueenSpider",
+      "effect": "Queen's Fangs (Hold Key)",
+      "verified": false
+    },
+    {
+      "key": 1000156,
+      "name": "Passive FlameKnightSword",
+      "internalName": "BuffLevel_Passive_FlameKnightSword",
+      "effect": "Volcanic Eruption (imbue Fire)",
+      "verified": false
+    },
+    {
+      "key": 1000157,
+      "name": "Socket AddCriticalRateByMaterialKey FabricArmor",
+      "internalName": "BuffLevel_Socket_AddCriticalRateByMaterialKey_FabricArmor",
+      "effect": "+#% Critical Rate against cloth armor",
+      "verified": false
+    },
+    {
+      "key": 1000158,
+      "name": "Temperature Insect",
+      "internalName": "BuffLevel_Temperature_Insect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000159,
+      "name": "Passive Moonhead GiantSpear Fire",
+      "internalName": "BuffLevel_Passive_Moonhead_GiantSpear_Fire",
+      "effect": "Half Moon Slash (Key after a certain action)",
+      "verified": false
+    },
+    {
+      "key": 1000160,
+      "name": "Passive LanFord",
+      "internalName": "BuffLevel_Passive_LanFord",
+      "effect": "Parting Gift (Key after being hit)",
+      "verified": false
+    },
+    {
+      "key": 1000161,
+      "name": "Passive WhiteHorn",
+      "internalName": "BuffLevel_Passive_WhiteHorn",
+      "effect": "Frost Hail (imbue Ice)",
+      "verified": false
+    },
+    {
+      "key": 1000162,
+      "name": "Passive GottiSword",
+      "internalName": "BuffLevel_Passive_GottiSword",
+      "effect": "Greysoul Howling (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000163,
+      "name": "Passive Moonhead GiantSpear Ice",
+      "internalName": "BuffLevel_Passive_Moonhead_GiantSpear_Ice",
+      "effect": "Crescent Moon Slash (Key after a certain action)",
+      "verified": false
+    },
+    {
+      "key": 1000164,
+      "name": "Passive Moonhead GiantSpear Lightning",
+      "internalName": "BuffLevel_Passive_Moonhead_GiantSpear_Lightning",
+      "effect": "Fullmoon Slash (Key after a certain action)",
+      "verified": false
+    },
+    {
+      "key": 1000165,
+      "name": "Equip Set Stealth Faction Desert Harrier",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_Desert_Harrier",
+      "effect": "Helms Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000166,
+      "name": "PlayerSensible",
+      "internalName": "BuffLevel_PlayerSensible",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000167,
+      "name": "DecreaseHP IncreaseMP Dot",
+      "internalName": "BuffLevel_DecreaseHP_IncreaseMP_Dot",
+      "effect": "Health Decrease / Spirit Recovery Lv #",
+      "verified": false
+    },
+    {
+      "key": 1000168,
+      "name": "Umbra GroggyStop",
+      "internalName": "BuffLevel_Umbra_GroggyStop",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000169,
+      "name": "Passive Antumbra TwoHandRod",
+      "internalName": "BuffLevel_Passive_Antumbra_TwoHandRod",
+      "effect": "Dark Crescent (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000170,
+      "name": "Passive SolidBringer WarHammer",
+      "internalName": "BuffLevel_Passive_SolidBringer_WarHammer",
+      "effect": "Tempest of Destruction (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000171,
+      "name": "BlockLearn",
+      "internalName": "BuffLevel_BlockLearn",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000172,
+      "name": "Armor Plate Mastery",
+      "internalName": "BuffLevel_Armor_Plate_Mastery",
+      "effect": "Plate Mastery Lv #",
+      "verified": false
+    },
+    {
+      "key": 1000173,
+      "name": "Armor Leather Mastery",
+      "internalName": "BuffLevel_Armor_Leather_Mastery",
+      "effect": "Leather Mastery Lv #",
+      "verified": false
+    },
+    {
+      "key": 1000174,
+      "name": "Armor Fabric Mastery",
+      "internalName": "BuffLevel_Armor_Fabric_Mastery",
+      "effect": "Cloth Mastery Lv #",
+      "verified": false
+    },
+    {
+      "key": 1000175,
+      "name": "Karanda",
+      "internalName": "BuffLevel_Passive_Karanda",
+      "effect": "Pillar of Wind (imbue Wind)",
+      "verified": false
+    },
+    {
+      "key": 1000176,
+      "name": "Drop Mining",
+      "internalName": "BuffLevel_Drop_Mining",
+      "effect": "Mining Mastery / Expert Mining",
+      "verified": false
+    },
+    {
+      "key": 1000177,
+      "name": "Food MpUseDecreaseRate",
+      "internalName": "BuffLevel_Food_MpUseDecreaseRate",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000178,
+      "name": "Food HP Dot",
+      "internalName": "BuffLevel_Food_HP_Dot",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000179,
+      "name": "Food MP Dot",
+      "internalName": "BuffLevel_Food_MP_Dot",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000180,
+      "name": "Food DDD",
+      "internalName": "BuffLevel_Food_DDD",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000181,
+      "name": "Food DPV",
+      "internalName": "BuffLevel_Food_DPV",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000182,
+      "name": "Food FireResistance",
+      "internalName": "BuffLevel_Food_FireResistance",
+      "effect": "FireResistance Lv #",
+      "verified": false
+    },
+    {
+      "key": 1000183,
+      "name": "Food IceResistance",
+      "internalName": "BuffLevel_Food_IceResistance",
+      "effect": "IceResistance Lv #",
+      "verified": false
+    },
+    {
+      "key": 1000184,
+      "name": "Food ElectricityResistance",
+      "internalName": "BuffLevel_Food_ElectricityResistance",
+      "effect": "ElectricityResistance Lv #",
+      "verified": false
+    },
+    {
+      "key": 1000185,
+      "name": "Food FallDamageReduce",
+      "internalName": "BuffLevel_Food_FallDamageReduce",
+      "effect": "Fall Damage Reduction Lv #",
+      "verified": false
+    },
+    {
+      "key": 1000186,
+      "name": "Food AttackSpeedRate",
+      "internalName": "BuffLevel_Food_AttackSpeedRate",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000187,
+      "name": "Armor Plate Mastery Stat",
+      "internalName": "BuffLevel_Armor_Plate_Mastery_Stat",
+      "effect": "AttackedDamageReduction#",
+      "verified": false
+    },
+    {
+      "key": 1000188,
+      "name": "Armor Leather Mastery Stat",
+      "internalName": "BuffLevel_Armor_Leather_Mastery_Stat",
+      "effect": "ElectricityResistance Lv # / FireResistance Lv # / IceResistance Lv #",
+      "verified": false
+    },
+    {
+      "key": 1000189,
+      "name": "MpUseDecreaseRate",
+      "internalName": "BuffLevel_MpUseDecreaseRate",
+      "effect": "Mp Cost -#% / Mp Cost +#%",
+      "verified": false
+    },
+    {
+      "key": 1000190,
+      "name": "FallDamageReduce",
+      "internalName": "BuffLevel_FallDamageReduce",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000191,
+      "name": "Item Active Food ComaImmune",
+      "internalName": "BuffLevel_Item_Active_Food_ComaImmune",
+      "effect": "Sleep Immunity",
+      "verified": false
+    },
+    {
+      "key": 1000192,
+      "name": "Item Active Food SOUNDATTACK",
+      "internalName": "BuffLevel_Item_Active_Food_SOUNDATTACK",
+      "effect": "Daze Immunity",
+      "verified": false
+    },
+    {
+      "key": 1000193,
+      "name": "Ludvig Awakened Effect",
+      "internalName": "BuffLevel_Ludvig_Awakened_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000194,
+      "name": "DeadBlood Effect",
+      "internalName": "BuffLevel_DeadBlood_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000195,
+      "name": "Fishing Autoreel",
+      "internalName": "BuffLevel_Fishing_Autoreel",
+      "effect": "Automatically reel in fish.",
+      "verified": false
+    },
+    {
+      "key": 1000196,
+      "name": "Equip Set Stealth Faction DawnMoon",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_DawnMoon",
+      "effect": "Twilight Messengers Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000197,
+      "name": "Equip Set Stealth Faction Faceless",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_Faceless",
+      "effect": "Faceless Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000198,
+      "name": "Equip Set Stealth Faction ThiefDusksong",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_ThiefDusksong",
+      "effect": "Dusksongs Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000199,
+      "name": "Equip Set Stealth Faction PirateI",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_PirateI",
+      "effect": "Pirate Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000200,
+      "name": "Equip Set Stealth Animal Wild Battle Wolf",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Animal_Wild_Battle_Wolf",
+      "effect": "Wolf Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000201,
+      "name": "Equip Set Stealth Animal Wild Battle Bear",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Animal_Wild_Battle_Bear",
+      "effect": "Bear Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000202,
+      "name": "Equip Set Stealth Animal Wild NonBattle Deer",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Animal_Wild_NonBattle_Deer",
+      "effect": "Deer Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000203,
+      "name": "Equip Set Stealth Animal Ent",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Animal_Ent",
+      "effect": "Wildlife Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000204,
+      "name": "Potion DPV",
+      "internalName": "BuffLevel_Potion_DPV",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000205,
+      "name": "Potion HP",
+      "internalName": "BuffLevel_Potion_HP",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000206,
+      "name": "Armor Fabric Mastery Stat",
+      "internalName": "BuffLevel_Armor_Fabric_Mastery_Stat",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000207,
+      "name": "CircusMachine Weak",
+      "internalName": "BuffLevel_CircusMachine_Weak",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000208,
+      "name": "Passive Attack HPRecover",
+      "internalName": "BuffLevel_Passive_Attack_HPRecover",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000209,
+      "name": "Passive Attack MPRecover",
+      "internalName": "BuffLevel_Passive_Attack_MPRecover",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000210,
+      "name": "Passive Attack SPRecover",
+      "internalName": "BuffLevel_Passive_Attack_SPRecover",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000211,
+      "name": "TradeShopSellPricePercent",
+      "internalName": "BuffLevel_TradeShopSellPricePercent",
+      "effect": "Trade Goods Profit +#%",
+      "verified": false
+    },
+    {
+      "key": 1000212,
+      "name": "Passive Combo",
+      "internalName": "BuffLevel_Passive_Combo",
+      "effect": "Damage increases with consecutive attacks",
+      "verified": false
+    },
+    {
+      "key": 1000213,
+      "name": "HorseArmor Shoe StaminaRegen",
+      "internalName": "BuffLevel_HorseArmor_Shoe_StaminaRegen",
+      "effect": "Stamina Regen +#",
+      "verified": false
+    },
+    {
+      "key": 1000214,
+      "name": "HorseArmor Stirrup HPRegen",
+      "internalName": "BuffLevel_HorseArmor_Stirrup_HPRegen",
+      "effect": "Hp Regen +#",
+      "verified": false
+    },
+    {
+      "key": 1000215,
+      "name": "Equip Set Stealth Faction WyvernTamers",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_WyvernTamers",
+      "effect": "Wyvernflame Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000216,
+      "name": "Equip Set Stealth Faction MistOwls",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_MistOwls",
+      "effect": "Mistcloaked Owls Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000217,
+      "name": "ReedDevil EyeLights Effect",
+      "internalName": "BuffLevel_ReedDevil_EyeLights_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000218,
+      "name": "DarkMyordin EyeLights Effect",
+      "internalName": "BuffLevel_DarkMyordin_EyeLights_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000219,
+      "name": "Alchemy DDD",
+      "internalName": "BuffLevel_Alchemy_DDD",
+      "effect": "DDD: +#",
+      "verified": false
+    },
+    {
+      "key": 1000220,
+      "name": "Alchemy DPV",
+      "internalName": "BuffLevel_Alchemy_DPV",
+      "effect": "DPV: +#",
+      "verified": false
+    },
+    {
+      "key": 1000221,
+      "name": "Alchemy HP",
+      "internalName": "BuffLevel_Alchemy_HP",
+      "effect": "Max Hp +#",
+      "verified": false
+    },
+    {
+      "key": 1000222,
+      "name": "Abyss Kutum Effect",
+      "internalName": "BuffLevel_Abyss_Kutum_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000223,
+      "name": "Hit HPRecover",
+      "internalName": "BuffLevel_Hit_HPRecover",
+      "effect": "Health Rally Lv#",
+      "verified": false
+    },
+    {
+      "key": 1000224,
+      "name": "Hit MPRecover",
+      "internalName": "BuffLevel_Hit_MPRecover",
+      "effect": "Spirit Rally Lv#",
+      "verified": false
+    },
+    {
+      "key": 1000225,
+      "name": "Passive CCImumune",
+      "internalName": "BuffLevel_Passive_CCImumune",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000226,
+      "name": "CollectDrop Machine",
+      "internalName": "BuffLevel_CollectDrop_Machine",
+      "effect": "#% chance to obtain additional mechanical parts",
+      "verified": false
+    },
+    {
+      "key": 1000227,
+      "name": "Equip Set Stealth Faction Thorel Demeniss",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_Thorel_Demeniss",
+      "effect": "Demenissian Faction Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000228,
+      "name": "Equip Set Stealth Faction BleedBlade",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_BleedBlade",
+      "effect": "Bleed Bandits Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000229,
+      "name": "Equip Set Stealth Faction Bandit",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_Bandit",
+      "effect": "Bandit Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000230,
+      "name": "Equip Set Stealth Faction Antumbra",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_Antumbra",
+      "effect": "Antumbra Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000231,
+      "name": "Equip Set Stealth Faction DeerKingSaigord",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_DeerKingSaigord",
+      "effect": "Staglord Acolyte Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000232,
+      "name": "Equip Set Stealth Faction Dewhaven",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_Dewhaven",
+      "effect": "Dewhaven Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000233,
+      "name": "Equip Set Stealth Faction SteelArrows",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_SteelArrows",
+      "effect": "Blinding Arrow Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000234,
+      "name": "Equip Set Stealth Faction WolfPursuer",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_WolfPursuer",
+      "effect": "Wolf Tracker Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000235,
+      "name": "Boss EyeLights Effect",
+      "internalName": "BuffLevel_Boss_EyeLights_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000236,
+      "name": "WhiteHorn EyeLights Effect",
+      "internalName": "BuffLevel_WhiteHorn_EyeLights_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000237,
+      "name": "Nuclear Fusion Effect",
+      "internalName": "BuffLevel_Nuclear_Fusion_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000238,
+      "name": "ReedDevil Shadow Effect",
+      "internalName": "BuffLevel_ReedDevil_Shadow_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000239,
+      "name": "ReedDevil Clone Shadow Effect",
+      "internalName": "BuffLevel_ReedDevil_Clone_Shadow_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000240,
+      "name": "Hexe Marie Effect",
+      "internalName": "BuffLevel_Hexe_Marie_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000241,
+      "name": "WizardBracelet Effect",
+      "internalName": "BuffLevel_WizardBracelet_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000242,
+      "name": "Wizard Halo Effect",
+      "internalName": "BuffLevel_Wizard_Halo_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000243,
+      "name": "Giant Titan Effect",
+      "internalName": "BuffLevel_Giant_Titan_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000244,
+      "name": "Electricity Boss",
+      "internalName": "BuffLevel_Electricity_Boss",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000245,
+      "name": "Equip Set Stealth Faction Halsius",
+      "internalName": "BuffLevel_Equip_Set_Stealth_Faction_Halsius",
+      "effect": "St. Halssius Disguise",
+      "verified": false
+    },
+    {
+      "key": 1000246,
+      "name": "FlameMyurdin Effect",
+      "internalName": "BuffLevel_FlameMyurdin_Effect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000247,
+      "name": "Oongka SuperArmorEffect",
+      "internalName": "BuffLevel_Oongka_SuperArmorEffect",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000248,
+      "name": "Hit SPRecover",
+      "internalName": "BuffLevel_Hit_SPRecover",
+      "effect": "Stamina Rally Lv#",
+      "verified": false
+    },
+    {
+      "key": 1000249,
+      "name": "Check NonSlip",
+      "internalName": "BuffLevel_Check_NonSlip",
+      "effect": "Increase Grip",
+      "verified": false
+    },
+    {
+      "key": 1000250,
+      "name": "Passive Ogre",
+      "internalName": "BuffLevel_Passive_Ogre",
+      "effect": "Colossal Might (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000251,
+      "name": "Passive SilverArmor",
+      "internalName": "BuffLevel_Passive_SilverArmor",
+      "effect": "Piercing Bloom (Hold Key)",
+      "verified": false
+    },
+    {
+      "key": 1000252,
+      "name": "Attack HPRecover",
+      "internalName": "BuffLevel_Attack_HPRecover",
+      "effect": "Health Siphon Lv#",
+      "verified": false
+    },
+    {
+      "key": 1000253,
+      "name": "Passive HexeMarie",
+      "internalName": "BuffLevel_Passive_HexeMarie",
+      "effect": "Crow Storm (Hold Key)",
+      "verified": false
+    },
+    {
+      "key": 1000254,
+      "name": "Passive TarandusWarrior",
+      "internalName": "BuffLevel_Passive_TarandusWarrior",
+      "effect": "Earthrending Strike (Key just before being hit)",
+      "verified": false
+    },
+    {
+      "key": 1000255,
+      "name": "Passive Skevald",
+      "internalName": "BuffLevel_Passive_Skevald",
+      "effect": "Putrid Touch (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000256,
+      "name": "Passive Trukan",
+      "internalName": "BuffLevel_Passive_Trukan",
+      "effect": "Kinetic Burst (Key repeatedly)",
+      "verified": false
+    },
+    {
+      "key": 1000257,
+      "name": "Passive Leebur",
+      "internalName": "BuffLevel_Passive_Leebur",
+      "effect": "Shadow Claw (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000258,
+      "name": "Priscus the Ancient",
+      "internalName": "BuffLevel_Passive_Priscus",
+      "effect": "Ancient Retribution (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000259,
+      "name": "Catfish",
+      "internalName": "BuffLevel_Passive_Catfish",
+      "effect": "Rising Torrent (Key after being hit)",
+      "verified": false
+    },
+    {
+      "key": 1000260,
+      "name": "Passive ImpBoss",
+      "internalName": "BuffLevel_Passive_ImpBoss",
+      "effect": "Howling of Chaos (Key just before being hit)",
+      "verified": false
+    },
+    {
+      "key": 1000261,
+      "name": "Praevus the Ancient",
+      "internalName": "BuffLevel_Passive_Praevus",
+      "effect": "Ancient Wrath (Key)",
+      "verified": false
+    },
+    {
+      "key": 1000262,
+      "name": "Attack MPRecover",
+      "internalName": "BuffLevel_Attack_MPRecover",
+      "effect": "Spirit Siphon Lv#",
+      "verified": false
+    },
+    {
+      "key": 1000263,
+      "name": "Passive Muscan",
+      "internalName": "BuffLevel_Passive_Muscan",
+      "effect": "The Showstopper (Key repeatedly)",
+      "verified": false
+    },
+    {
+      "key": 1000264,
+      "name": "Passive Gwen",
+      "internalName": "BuffLevel_Passive_Gwen",
+      "effect": "Shattering Frost (imbue Ice)",
+      "verified": false
+    },
+    {
+      "key": 1000265,
+      "name": "Passive Antumbra Spear",
+      "internalName": "BuffLevel_Passive_Antumbra_Spear",
+      "effect": "Warden of Darkness (finisher)",
+      "verified": false
+    },
+    {
+      "key": 1000266,
+      "name": "Primus the Ancient",
+      "internalName": "BuffLevel_Passive_Primus",
+      "effect": "Ancient Reckoning (imbue Wind)",
+      "verified": false
+    },
+    {
+      "key": 1000267,
+      "name": "Boss PauseCount",
+      "internalName": "BuffLevel_Boss_PauseCount",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000268,
+      "name": "Boss ThreatCount",
+      "internalName": "BuffLevel_Boss_ThreatCount",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000269,
+      "name": "BumpCountStart",
+      "internalName": "BuffLevel_BumpCountStart",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000270,
+      "name": "Socket DecreaseHP IncreaseMP Dot Desc",
+      "internalName": "BuffLevel_Socket_DecreaseHP_IncreaseMP_Dot_Desc",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000271,
+      "name": "Electricity Machine",
+      "internalName": "BuffLevel_Electricity_Machine",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000272,
+      "name": "WetNess",
+      "internalName": "BuffLevel_WetNess",
+      "effect": "",
+      "verified": false
+    },
+    {
+      "key": 1000273,
+      "name": "Attack SPRecover",
+      "internalName": "BuffLevel_Attack_SPRecover",
+      "effect": "Stamina Siphon Lv#",
+      "verified": false
+    },
+    {
+      "key": 1000274,
+      "name": "GoldenStarOverload",
+      "internalName": "BuffLevel_GoldenStarOverload",
+      "effect": "",
+      "verified": false
+    }
+  ],
+  "passives": [
+    {
+      "key": 70338,
+      "name": "Invincible",
+      "verified": true,
+      "note": "Dev ring passive"
+    },
+    {
+      "key": 70339,
+      "name": "Great Thief",
+      "verified": true,
+      "note": "Dev ring passive"
+    },
+    {
+      "key": 70337,
+      "name": "Debuff Immunity",
+      "verified": true,
+      "note": "Dev ring passive"
+    }
+  ]
+}

@@ -1,150 +1,198 @@
 {
-  "version": 1,
+  "version": 2,
   "description": "Community-mapped names for Crimson Desert equipment modding. THREE SEPARATE NAMESPACES - same key number means different things! stats = enchant level stats (statusinfo.pabgb), buffs = equipment buffs (buffinfo.pabgb), passives = passive skills (skill.pabgb). Contributions welcome: verify in-game, set verified=true, submit PR.",
   "stats": [
     {
       "key": 1000000,
       "name": "Max HP",
       "type": "flat",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 999999999
     },
     {
       "key": 1000001,
       "name": "Max Stamina",
       "type": "flat",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 999999999
     },
     {
       "key": 1000002,
       "name": "DDD / Damage Dealt",
       "type": "flat",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 999999999
     },
     {
       "key": 1000003,
       "name": "DPV / Defense",
       "type": "flat",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 999999999
     },
     {
       "key": 1000004,
       "name": "DDD Rate",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000005,
       "name": "DPV Rate",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000006,
       "name": "Critical Rate",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000007,
       "name": "Critical Damage",
       "type": "flat",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 999999999
     },
     {
       "key": 1000008,
       "name": "Attack Damage Rate",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000009,
       "name": "Attacked Damage Reduction",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000010,
       "name": "Attack Speed Rate",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000011,
       "name": "Move Speed Rate",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000012,
       "name": "Casting Speed Rate",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000013,
       "name": "All Resistance",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000014,
       "name": "Fire Resistance",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000015,
       "name": "Ice Resistance",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000016,
       "name": "Lightning Resistance",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000017,
       "name": "HP Regen",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000018,
       "name": "Stamina Regen",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000019,
       "name": "Guard PV Rate",
       "type": "rate",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 15
     },
     {
       "key": 1000020,
       "name": "Max Spirit (MP)",
       "type": "flat",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 999999999
     },
     {
       "key": 1000024,
       "name": "Back Attack Damage",
       "type": "flat",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 999999999
     },
     {
       "key": 1000025,
       "name": "Down Attack Damage",
       "type": "flat",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 999999999
     },
     {
       "key": 1000026,
       "name": "Air Attack Damage",
       "type": "flat",
-      "verified": true
+      "verified": true,
+      "minValue": 0,
+      "maxValue": 999999999
     }
   ],
   "buffs": [
@@ -160,42 +208,60 @@
       "name": "Health",
       "internalName": "BuffLevel_HP",
       "effect": "Max Hp +#",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 999999999,
+      "valueType": "flat"
     },
     {
       "key": 1000002,
       "name": "Spirit",
       "internalName": "BuffLevel_MP",
       "effect": "Max Mp +#",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 999999999,
+      "valueType": "flat"
     },
     {
       "key": 1000003,
       "name": "Stamina",
       "internalName": "BuffLevel_SP",
       "effect": "Max Stamina +#",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 999999999,
+      "valueType": "flat"
     },
     {
       "key": 1000004,
       "name": "Attack",
       "internalName": "BuffLevel_DDD",
       "effect": "DDD: +#",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 999999999,
+      "valueType": "flat"
     },
     {
       "key": 1000005,
       "name": "Defense",
       "internalName": "BuffLevel_DPV",
       "effect": "DPV: +#",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 999999999,
+      "valueType": "flat"
     },
     {
       "key": 1000006,
       "name": "Attack Speed",
       "internalName": "BuffLevel_AttackSpeedRate",
       "effect": "AttackSpeedRate: Lv +#",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000007,
@@ -209,14 +275,20 @@
       "name": "HPRegen",
       "internalName": "BuffLevel_HPRegen",
       "effect": "Hp: +# every #s sec",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 50,
+      "valueType": "rate"
     },
     {
       "key": 1000009,
       "name": "MpRegen",
       "internalName": "BuffLevel_MpRegen",
       "effect": "Mp: +# every #s sec",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 50,
+      "valueType": "rate"
     },
     {
       "key": 1000010,
@@ -237,21 +309,30 @@
       "name": "Fire Resistance",
       "internalName": "BuffLevel_FireResistance",
       "effect": "Burn Immunity / Burn Resistance / Heat Immunity",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000013,
       "name": "Ice Resistance",
       "internalName": "BuffLevel_IceResistance",
       "effect": "Freeze Immunity / Freeze Resistance / Cold Immunity",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000014,
       "name": "Lightning Resistance",
       "internalName": "BuffLevel_ElectricityResistance",
       "effect": "Shock Immunity / Shock Resistance",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000015,
@@ -475,7 +556,10 @@
       "name": "StaminaRegen",
       "internalName": "BuffLevel_StaminaRegen",
       "effect": "Stamina: +# every #s sec",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 50,
+      "valueType": "rate"
     },
     {
       "key": 1000047,
@@ -615,7 +699,10 @@
       "name": "Equipment Drop Rate",
       "internalName": "BuffLevel_EquipDropRate",
       "effect": "#% chance to disarm enemies on hit",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000067,
@@ -650,21 +737,30 @@
       "name": "CollectDrop Ore",
       "internalName": "BuffLevel_CollectDrop_Ore",
       "effect": "#% chance to mine additional ore",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000072,
       "name": "CollectDrop Plant",
       "internalName": "BuffLevel_CollectDrop_Plant",
       "effect": "#% chance to gather additional items",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000073,
       "name": "CollectDrop Animal",
       "internalName": "BuffLevel_CollectDrop_Animal",
       "effect": "#% chance to skin additional hide",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000074,
@@ -776,21 +872,30 @@
       "name": "FoodSkillLevelUp",
       "internalName": "BuffLevel_FoodSkillLevelUp",
       "effect": "Food Effect Lv +#",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 10,
+      "valueType": "rate"
     },
     {
       "key": 1000090,
       "name": "Machine AddDamageRate",
       "internalName": "BuffLevel_Machine_AddDamageRate",
       "effect": "+#% damage to machines",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000091,
       "name": "ReduceCraftMaterial",
       "internalName": "BuffLevel_ReduceCraftMaterial",
       "effect": "#% chance to save 1 crafting material",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000092,
@@ -804,7 +909,10 @@
       "name": "CollectDrop Log",
       "internalName": "BuffLevel_CollectDrop_Log",
       "effect": "#% chance to log additional timber",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000094,
@@ -825,14 +933,20 @@
       "name": "Socket AttackDamageReduction",
       "internalName": "BuffLevel_Socket_AttackDamageReduction",
       "effect": "AttackedDamageReduction#",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000097,
       "name": "Defense Efficiency",
       "internalName": "BuffLevel_Socket_GuardPVRate",
       "effect": "Guard Stamina Cost -#%",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000098,
@@ -846,14 +960,20 @@
       "name": "AdditionalFriendly",
       "internalName": "BuffLevel_AdditionalFriendly",
       "effect": "+# Trust Gain",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 10,
+      "valueType": "rate"
     },
     {
       "key": 1000100,
       "name": "Climb Speed Multiplier",
       "internalName": "BuffLevel_Socket_ClimbSpeedRate",
       "effect": "ClimbSpeedRate#%",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000101,
@@ -888,7 +1008,10 @@
       "name": "Drop Log",
       "internalName": "BuffLevel_Drop_Log",
       "effect": "Expert Logging / Logging Mastery",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000106,
@@ -902,77 +1025,110 @@
       "name": "Swim Speed Multiplier",
       "internalName": "BuffLevel_Socket_SwimSpeedRate",
       "effect": "SwimSpeedRate#%",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000108,
       "name": "CommonHexe AddDamageRate",
       "internalName": "BuffLevel_CommonHexe_AddDamageRate",
       "effect": "+#% damage to earthen beings",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000109,
       "name": "CommonHumanoid AddDamageRate",
       "internalName": "BuffLevel_CommonHumanoid_AddDamageRate",
       "effect": "+#% damage to humanoids",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000110,
       "name": "CommonGolem AddDamageRate",
       "internalName": "BuffLevel_CommonGolem_AddDamageRate",
       "effect": "+#% damage to Walkers",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000111,
       "name": "Boss AddDamageRate",
       "internalName": "BuffLevel_Boss_AddDamageRate",
       "effect": "+#% damage to mighty foes",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000112,
       "name": "CommonAnimal AddDamageRate",
       "internalName": "BuffLevel_CommonAnimal_AddDamageRate",
       "effect": "+#% damage to beasts",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000113,
       "name": "Creature AddDamageRate",
       "internalName": "BuffLevel_Creature_AddDamageRate",
       "effect": "+#% damage to Abyssal creatures",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000114,
       "name": "Socket ContributionExp",
       "internalName": "BuffLevel_Socket_ContributionExp",
       "effect": "+ #% Contribution EXP Gain",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 10,
+      "valueType": "rate"
     },
     {
       "key": 1000115,
       "name": "Socket SkillPointExp",
       "internalName": "BuffLevel_Socket_SkillPointExp",
       "effect": "+ #% Skill EXP Gain",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 10,
+      "valueType": "rate"
     },
     {
       "key": 1000116,
       "name": "Socket BlockAmmoConsume",
       "internalName": "BuffLevel_Socket_BlockAmmoConsume",
       "effect": "#% chance to not consume arrows",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000117,
       "name": "Increased Silver Drop Rate",
       "internalName": "BuffLevel_Socket_AddMoneyDropRate",
       "effect": "+ #% Silver Gain",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000118,
@@ -986,7 +1142,10 @@
       "name": "Socket AdditionalThief",
       "internalName": "BuffLevel_Socket_AdditionalThief",
       "effect": "#% chance to pickpocket additional items",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000120,
@@ -1007,21 +1166,30 @@
       "name": "Socket StaminaRegen",
       "internalName": "BuffLevel_Socket_StaminaRegen",
       "effect": "Stamina Regen +#",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 50,
+      "valueType": "rate"
     },
     {
       "key": 1000123,
       "name": "AdditionalVehicleExp",
       "internalName": "BuffLevel_AdditionalVehicleExp",
       "effect": "+# Horse EXP Gain",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000124,
       "name": "AdditionalPetFriendly",
       "internalName": "BuffLevel_AdditionalPetFriendly",
       "effect": "+# Pet Trust Gain",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 10,
+      "valueType": "rate"
     },
     {
       "key": 1000125,
@@ -1140,7 +1308,10 @@
       "name": "StaminaUseIncreaseRate",
       "internalName": "BuffLevel_StaminaUseIncreaseRate",
       "effect": "Stamina Regen -#% / Stamina Regen +#%",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000142,
@@ -1182,7 +1353,10 @@
       "name": "Socket AddCriticalRateByMaterialKey PlateArmor",
       "internalName": "BuffLevel_Socket_AddCriticalRateByMaterialKey_PlateArmor",
       "effect": "+#% Critical Rate against plate armor",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000148,
@@ -1231,7 +1405,10 @@
       "name": "Socket AddCriticalRateByMaterialKey LeatherArmor",
       "internalName": "BuffLevel_Socket_AddCriticalRateByMaterialKey_LeatherArmor",
       "effect": "+#% Critical Rate against leather armor",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000155,
@@ -1252,7 +1429,10 @@
       "name": "Socket AddCriticalRateByMaterialKey FabricArmor",
       "internalName": "BuffLevel_Socket_AddCriticalRateByMaterialKey_FabricArmor",
       "effect": "+#% Critical Rate against cloth armor",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000158,
@@ -1385,7 +1565,10 @@
       "name": "Drop Mining",
       "internalName": "BuffLevel_Drop_Mining",
       "effect": "Mining Mastery / Expert Mining",
-      "verified": false
+      "verified": false,
+      "minValue": 0,
+      "maxValue": 15,
+      "valueType": "rate"
     },
     {
       "key": 1000177,

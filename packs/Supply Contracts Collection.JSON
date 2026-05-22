@@ -1,0 +1,259 @@
+{
+  "name": "Supply Contracts Collection",
+  "author": "DatGuySnowfox",
+  "description": "Collection of Outfit, Equipment, Provisions, Seed, and Food Supply Contracts",
+  "version": 1,
+  "created": "2026-03-28",
+  "items": [
+    {
+      "item_key": 1001778,
+      "name": "Seed Supply Contract - Hernand",
+      "count": 1
+    },
+    {
+      "item_key": 1001954,
+      "name": "Outfit Supply Contract - Hernand",
+      "count": 1
+    },
+    {
+      "item_key": 1002860,
+      "name": "Furniture Supply Contract - Timberham",
+      "count": 1
+    },
+    {
+      "item_key": 1002861,
+      "name": "Furniture Supply Contract - Hidden Grove",
+      "count": 1
+    },
+    {
+      "item_key": 1002868,
+      "name": "Furniture Supply Contract - Timberton",
+      "count": 1
+    },
+    {
+      "item_key": 1002869,
+      "name": "Furniture Supply Contract - Beighen",
+      "count": 1
+    },
+    {
+      "item_key": 1003145,
+      "name": "Outfit Supply Contract - Calphade",
+      "count": 1
+    },
+    {
+      "item_key": 1003146,
+      "name": "Outfit Supply Contract - Demeniss",
+      "count": 1
+    },
+    {
+      "item_key": 1003147,
+      "name": "Outfit Supply Contract - Tariv",
+      "count": 1
+    },
+    {
+      "item_key": 1003148,
+      "name": "Outfit Supply Contract - Demeniss Wildlife Park",
+      "count": 1
+    },
+    {
+      "item_key": 1003149,
+      "name": "Outfit Supply Contract - Delesyia",
+      "count": 1
+    },
+    {
+      "item_key": 1003150,
+      "name": "Outfit Supply Contract - Pailune",
+      "count": 1
+    },
+    {
+      "item_key": 1003151,
+      "name": "Outfit Supply Contract - Tommaso",
+      "count": 1
+    },
+    {
+      "item_key": 1003152,
+      "name": "Outfit Supply Contract - Varnia",
+      "count": 1
+    },
+    {
+      "item_key": 1003153,
+      "name": "Equipment Supply Contract - Hernand",
+      "count": 1
+    },
+    {
+      "item_key": 1003154,
+      "name": "Equipment Supply Contract - Kharonso",
+      "count": 1
+    },
+    {
+      "item_key": 1003155,
+      "name": "Equipment Supply Contract - Calphade",
+      "count": 1
+    },
+    {
+      "item_key": 1003156,
+      "name": "Equipment Supply Contract - Demeniss",
+      "count": 1
+    },
+    {
+      "item_key": 1003157,
+      "name": "Equipment Supply Contract - Tariv",
+      "count": 1
+    },
+    {
+      "item_key": 1003158,
+      "name": "Equipment Supply Contract - Stronghelm Forge",
+      "count": 1
+    },
+    {
+      "item_key": 1003159,
+      "name": "Equipment Supply Contract - Delesyia",
+      "count": 1
+    },
+    {
+      "item_key": 1003160,
+      "name": "Equipment Supply Contract - Pailune",
+      "count": 1
+    },
+    {
+      "item_key": 1003161,
+      "name": "Equipment Supply Contract - Skoghorn",
+      "count": 1
+    },
+    {
+      "item_key": 1003162,
+      "name": "Equipment Supply Contract - Odeck",
+      "count": 1
+    },
+    {
+      "item_key": 1003163,
+      "name": "Equipment Supply Contract - Varnia",
+      "count": 1
+    },
+    {
+      "item_key": 1003164,
+      "name": "Equipment Supply Contract - Tommaso",
+      "count": 1
+    },
+    {
+      "item_key": 1003172,
+      "name": "Provisions Supply Contract - Hernand",
+      "count": 1
+    },
+    {
+      "item_key": 1003173,
+      "name": "Provisions Supply Contract - Calphade",
+      "count": 1
+    },
+    {
+      "item_key": 1003174,
+      "name": "Provisions Supply Contract - Delesyia",
+      "count": 1
+    },
+    {
+      "item_key": 1003175,
+      "name": "Provisions Supply Contract - Pailune",
+      "count": 1
+    },
+    {
+      "item_key": 1003176,
+      "name": "Provisions Supply Contract - Beighen",
+      "count": 1
+    },
+    {
+      "item_key": 1003177,
+      "name": "Provisions Supply Contract - Demeniss",
+      "count": 1
+    },
+    {
+      "item_key": 1003178,
+      "name": "Provisions Supply Contract - Tommaso",
+      "count": 1
+    },
+    {
+      "item_key": 1003179,
+      "name": "Provisions Supply Contract - Varnia",
+      "count": 1
+    },
+    {
+      "item_key": 1003180,
+      "name": "Provisions Supply Contract - Vellua",
+      "count": 1
+    },
+    {
+      "item_key": 1003181,
+      "name": "Provisions Supply Contract - Skoghorn",
+      "count": 1
+    },
+    {
+      "item_key": 1003182,
+      "name": "Seed Supply Contract - Calphade",
+      "count": 1
+    },
+    {
+      "item_key": 1003183,
+      "name": "Seed Supply Contract - Demeniss",
+      "count": 1
+    },
+    {
+      "item_key": 1003184,
+      "name": "Seed Supply Contract - Delesyia",
+      "count": 1
+    },
+    {
+      "item_key": 1003185,
+      "name": "Seed Supply Contract - Pailune",
+      "count": 1
+    },
+    {
+      "item_key": 1003186,
+      "name": "Seed Supply Contract - Tommaso",
+      "count": 1
+    },
+    {
+      "item_key": 1003187,
+      "name": "Seed Supply Contract - Varnia",
+      "count": 1
+    },
+    {
+      "item_key": 1003329,
+      "name": "Food Supply Contract - Hernand",
+      "count": 1
+    },
+    {
+      "item_key": 1003330,
+      "name": "Food Supply Contract - Calphade",
+      "count": 1
+    },
+    {
+      "item_key": 1003331,
+      "name": "Food Supply Contract - Kharonso",
+      "count": 1
+    },
+    {
+      "item_key": 1003332,
+      "name": "Food Supply Contract - Demeniss",
+      "count": 1
+    },
+    {
+      "item_key": 1003333,
+      "name": "Food Supply Contract - Delesyia",
+      "count": 1
+    },
+    {
+      "item_key": 1003334,
+      "name": "Food Supply Contract - Pailune",
+      "count": 1
+    },
+    {
+      "item_key": 1003335,
+      "name": "Food Supply Contract - Tommaso",
+      "count": 1
+    },
+    {
+      "item_key": 1003336,
+      "name": "Food Supply Contract - Varnia",
+      "count": 1
+    }
+  ]
+}

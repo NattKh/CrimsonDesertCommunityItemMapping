@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "description": "Community-mapped names for Crimson Desert equipment modding. THREE SEPARATE NAMESPACES - same key number means different things! stats = enchant level stats (statusinfo.pabgb), buffs = equipment buffs (buffinfo.pabgb), passives = passive skills (skill.pabgb). Contributions welcome: verify in-game, set verified=true, submit PR.",
+  "description": "Community-mapped names for Crimson Desert equipment modding. THREE SEPARATE NAMESPACES - same key number means different things! stats = enchant level stats (statusinfo.pabgb), buffs = equipment buffs (buffinfo.pabgb), passives = passive skills (skill.pabgb). Stat internalName values are extracted directly from gamedata/statusinfo.pabgb (CD 1.13) and are authoritative. Contributions welcome: verify in-game, set verified=true, submit PR.",
   "stats": [
     {
       "key": 1000000,
       "name": "Max HP",
+      "internalName": "Hp",
       "type": "flat",
       "verified": true,
       "minValue": 0,
@@ -12,15 +13,15 @@
     },
     {
       "key": 1000001,
-      "name": "Max Stamina",
+      "name": "Fatal",
+      "internalName": "Fatal",
       "type": "flat",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 999999999
+      "verified": false
     },
     {
       "key": 1000002,
       "name": "DDD / Damage Dealt",
+      "internalName": "DDD",
       "type": "flat",
       "verified": true,
       "minValue": 0,
@@ -29,6 +30,7 @@
     {
       "key": 1000003,
       "name": "DPV / Defense",
+      "internalName": "DPV",
       "type": "flat",
       "verified": true,
       "minValue": 0,
@@ -36,47 +38,43 @@
     },
     {
       "key": 1000004,
-      "name": "DDD Rate",
-      "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "name": "DHIT",
+      "internalName": "DHIT",
+      "type": "flat",
+      "verified": false
     },
     {
       "key": 1000005,
-      "name": "DPV Rate",
-      "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "name": "DDV",
+      "internalName": "DDV",
+      "type": "flat",
+      "verified": false
     },
     {
       "key": 1000006,
-      "name": "Critical Rate",
-      "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "name": "Critical Damage",
+      "internalName": "CriticalDamage",
+      "type": "flat",
+      "verified": false
     },
     {
       "key": 1000007,
-      "name": "Critical Damage",
-      "type": "flat",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 999999999
+      "name": "Critical Rate",
+      "internalName": "CriticalRate",
+      "type": "rate",
+      "verified": false
     },
     {
       "key": 1000008,
-      "name": "Attack Damage Rate",
+      "name": "Attacked Damage Rate",
+      "internalName": "AttackedDamageRate",
       "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "verified": false
     },
     {
       "key": 1000009,
       "name": "Attacked Damage Reduction",
+      "internalName": "AttackedDamageReduction",
       "type": "rate",
       "verified": true,
       "minValue": 0,
@@ -85,6 +83,7 @@
     {
       "key": 1000010,
       "name": "Attack Speed Rate",
+      "internalName": "AttackSpeedRate",
       "type": "rate",
       "verified": true,
       "minValue": 0,
@@ -93,6 +92,7 @@
     {
       "key": 1000011,
       "name": "Move Speed Rate",
+      "internalName": "MoveSpeedRate",
       "type": "rate",
       "verified": true,
       "minValue": 0,
@@ -100,99 +100,444 @@
     },
     {
       "key": 1000012,
-      "name": "Casting Speed Rate",
+      "name": "Climb Speed Rate",
+      "internalName": "ClimbSpeedRate",
       "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "verified": false
     },
     {
       "key": 1000013,
-      "name": "All Resistance",
+      "name": "Swim Speed Rate",
+      "internalName": "SwimSpeedRate",
       "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "verified": false
     },
     {
       "key": 1000014,
-      "name": "Fire Resistance",
-      "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "name": "Temperature",
+      "internalName": "Temperature",
+      "type": "flat",
+      "verified": false
     },
     {
       "key": 1000015,
-      "name": "Ice Resistance",
-      "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "name": "Electricity",
+      "internalName": "Electricity",
+      "type": "flat",
+      "verified": false
     },
     {
       "key": 1000016,
-      "name": "Lightning Resistance",
-      "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "name": "Fire Resistance",
+      "internalName": "FireResistance",
+      "type": "flat",
+      "verified": false
     },
     {
       "key": 1000017,
-      "name": "HP Regen",
-      "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "name": "Ice Resistance",
+      "internalName": "IceResistance",
+      "type": "flat",
+      "verified": false
     },
     {
       "key": 1000018,
-      "name": "Stamina Regen",
-      "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "name": "Electricity Resistance",
+      "internalName": "ElectricityResistance",
+      "type": "flat",
+      "verified": false
     },
     {
       "key": 1000019,
-      "name": "Guard PV Rate",
-      "type": "rate",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 15
+      "name": "Equip Main Weapon",
+      "internalName": "EquipMainWeapon",
+      "type": "flat",
+      "verified": false
     },
     {
       "key": 1000020,
-      "name": "Max Spirit (MP)",
+      "name": "Bare Hand DDD",
+      "internalName": "BareHandDDD",
       "type": "flat",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 999999999
+      "verified": false
+    },
+    {
+      "key": 1000021,
+      "name": "Equip Sub Weapon1",
+      "internalName": "EquipSubWeapon1",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000022,
+      "name": "Light",
+      "internalName": "Light",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000023,
+      "name": "Fire B",
+      "internalName": "FireB",
+      "type": "flat",
+      "verified": false
     },
     {
       "key": 1000024,
-      "name": "Back Attack Damage",
+      "name": "Confusion",
+      "internalName": "Confusion",
       "type": "flat",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 999999999
+      "verified": false
     },
     {
       "key": 1000025,
-      "name": "Down Attack Damage",
+      "name": "Morale",
+      "internalName": "Morale",
       "type": "flat",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 999999999
+      "verified": false
     },
     {
       "key": 1000026,
-      "name": "Air Attack Damage",
+      "name": "Max Stamina",
+      "internalName": "Stamina",
       "type": "flat",
-      "verified": true,
-      "minValue": 0,
-      "maxValue": 999999999
+      "verified": false
+    },
+    {
+      "key": 1000027,
+      "name": "Max Spirit (MP)",
+      "internalName": "Mp",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000028,
+      "name": "Fury",
+      "internalName": "Fury",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000029,
+      "name": "Fresh",
+      "internalName": "Fresh",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000030,
+      "name": "Strength",
+      "internalName": "Strength",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000031,
+      "name": "Hit Rate",
+      "internalName": "HitRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000032,
+      "name": "Agility",
+      "internalName": "Agility",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000033,
+      "name": "Fishing",
+      "internalName": "Fishing",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000034,
+      "name": "Range Hit Rate",
+      "internalName": "RangeHitRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000035,
+      "name": "Max Damage Rate",
+      "internalName": "MaxDamageRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000036,
+      "name": "Pressure",
+      "internalName": "Pressure",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000037,
+      "name": "Stamina Use Decrease Rate",
+      "internalName": "Stamina_UseResourceDecreaseRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000038,
+      "name": "Strengthening",
+      "internalName": "Strengthening",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000039,
+      "name": "Morale Resistance",
+      "internalName": "MoraleResistance",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000040,
+      "name": "Sink",
+      "internalName": "Sink",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000041,
+      "name": "Puzzle",
+      "internalName": "Puzzle",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000042,
+      "name": "Lapidification",
+      "internalName": "Lapidification",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000043,
+      "name": "Guard PV Rate",
+      "internalName": "GuardPVRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000044,
+      "name": "Equip Sub Weapon2",
+      "internalName": "EquipSubWeapon2",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000045,
+      "name": "Equip Bow",
+      "internalName": "EquipBow",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000046,
+      "name": "Spirit Use Decrease Rate",
+      "internalName": "Mp_UseResourceDecreaseRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000047,
+      "name": "Add Money Drop Rate",
+      "internalName": "AddMoneyDropRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000048,
+      "name": "Knock Out",
+      "internalName": "KnockOut",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000049,
+      "name": "Equip Drop Rate",
+      "internalName": "EquipDropRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000050,
+      "name": "DPV Rate",
+      "internalName": "DPVRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000051,
+      "name": "Dead Eye Max",
+      "internalName": "DeadEyeMax",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000052,
+      "name": "Mining",
+      "internalName": "Mining",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000053,
+      "name": "Banking",
+      "internalName": "Banking",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000054,
+      "name": "Farming",
+      "internalName": "Farming",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000055,
+      "name": "Ranching",
+      "internalName": "Ranching",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000056,
+      "name": "Logging",
+      "internalName": "Logging",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000057,
+      "name": "Forging",
+      "internalName": "Forging",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000058,
+      "name": "Equip Left Main Weapon",
+      "internalName": "EquipLeftMainWeapon",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000059,
+      "name": "Refining",
+      "internalName": "Refining",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000060,
+      "name": "Weaving",
+      "internalName": "Weaving",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000061,
+      "name": "Foodprocessing",
+      "internalName": "Foodprocessing",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000062,
+      "name": "Crafting",
+      "internalName": "Crafting",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000063,
+      "name": "Spirit Use Increase Rate",
+      "internalName": "Mp_UseResourceIncreaseRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000064,
+      "name": "Stamina Use Increase Rate",
+      "internalName": "Stamina_UseResourceIncreaseRate",
+      "type": "rate",
+      "verified": false
+    },
+    {
+      "key": 1000065,
+      "name": "Gathering",
+      "internalName": "Gathering",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000066,
+      "name": "Ornamenting",
+      "internalName": "Ornamenting",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000067,
+      "name": "Drawing",
+      "internalName": "Drawing",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000068,
+      "name": "Building",
+      "internalName": "Building",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000069,
+      "name": "Engineering",
+      "internalName": "Engineering",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000070,
+      "name": "Bare Foot DDD",
+      "internalName": "BareFootDDD",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000071,
+      "name": "Difficulty",
+      "internalName": "Difficulty",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000072,
+      "name": "Hunger",
+      "internalName": "Hunger",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000073,
+      "name": "Social",
+      "internalName": "Social",
+      "type": "flat",
+      "verified": false
+    },
+    {
+      "key": 1000074,
+      "name": "Knock Out PVRate",
+      "internalName": "KnockOutPVRate",
+      "type": "rate",
+      "verified": false
     }
   ],
   "buffs": [

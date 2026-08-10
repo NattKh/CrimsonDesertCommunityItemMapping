@@ -1,0 +1,12 @@
+{
+  "name": "Aeserion Ranged and Special Weapons +3",
+  "author": "Tiger3x",
+  "description": "Aeserion ranged and special weapon collection with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 301000, "name": "Aeserion Bow", "count": 1, "enchant": 3},
+    {"item_key": 1000738, "name": "Tauria Curved Sword", "count": 1, "enchant": 3},
+    {"item_key": 200902, "name": "Hollow Visage", "count": 1, "enchant": 3}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ashad Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Ashad plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 101101, "name": "Ashad Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 111168, "name": "Ashad Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 121033, "name": "Ashad Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 131023, "name": "Ashad Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

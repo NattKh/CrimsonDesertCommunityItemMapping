@@ -1,0 +1,13 @@
+{
+  "name": "Full Moon Reaper Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Full Moon Reaper plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 1000697, "name": "Full Moon Reaper Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 1000699, "name": "Full Moon Reaper Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 1000280, "name": "Lunar Reapers' Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 1000718, "name": "Full Moon Reaper Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

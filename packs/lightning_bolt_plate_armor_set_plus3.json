@@ -1,0 +1,13 @@
+{
+  "name": "Lightning Bolt Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Lightning Bolt plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 1001325, "name": "Lightning Bolt Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 1001326, "name": "Lightning Bolt Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 1001327, "name": "Lightning Bolt Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 1001328, "name": "Lightning Bolt Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

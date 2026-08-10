@@ -1,0 +1,13 @@
+{
+  "name": "Odeck's Protector Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Odeck's Protector plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 1000051, "name": "Odeck's Protector Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 1000052, "name": "Odeck's Protector Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 1000053, "name": "Odeck's Protector Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 1000054, "name": "Odeck's Protector Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

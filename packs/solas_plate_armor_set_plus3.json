@@ -1,0 +1,13 @@
+{
+  "name": "Solas Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Solas plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 101102, "name": "Solas Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 111169, "name": "Solas Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 121034, "name": "Solas Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 131024, "name": "Solas Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

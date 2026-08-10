@@ -1,0 +1,13 @@
+{
+  "name": "Riding Attire Set +3",
+  "author": "Tiger3x",
+  "description": "Complete riding attire set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 1000247, "name": "Leather Riding Hat", "count": 1, "enchant": 3},
+    {"item_key": 1000246, "name": "Riding Attire", "count": 1, "enchant": 3},
+    {"item_key": 1000248, "name": "Master Trainer's Touch", "count": 1, "enchant": 3},
+    {"item_key": 1000249, "name": "Riding Boots", "count": 1, "enchant": 3}
+  ]
+}

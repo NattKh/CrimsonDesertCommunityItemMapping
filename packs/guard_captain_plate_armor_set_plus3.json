@@ -1,0 +1,13 @@
+{
+  "name": "Guard Captain Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Guard Captain plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 1000868, "name": "Guard Captain's Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 1000869, "name": "Guard Captain's Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 1000870, "name": "Hernandian Guard Captain's Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 1000871, "name": "Guard Captain's Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

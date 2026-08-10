@@ -1,0 +1,13 @@
+{
+  "name": "Raging Tempest Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Raging Tempest plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 2600048, "name": "Raging Tempest's Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 2600047, "name": "Raging Tempest's Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 2600050, "name": "Raging Tempest's Leather Gloves", "count": 1, "enchant": 3},
+    {"item_key": 2600049, "name": "Raging Tempest's Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

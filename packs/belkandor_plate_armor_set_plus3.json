@@ -1,0 +1,13 @@
+{
+  "name": "Belkandor Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Belkandor plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 1000993, "name": "Belkandor Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 1000978, "name": "Belkandor Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 1000987, "name": "Belkandor Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 1000874, "name": "Belkandor Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

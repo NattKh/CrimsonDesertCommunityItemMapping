@@ -1,0 +1,13 @@
+{
+  "name": "Cursed Soul Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Cursed Soul plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 14401, "name": "Plate Helm of Cursed Soul", "count": 1, "enchant": 3},
+    {"item_key": 14101, "name": "Plate Armor of Cursed Soul", "count": 1, "enchant": 3},
+    {"item_key": 14301, "name": "Plate Gloves of Cursed Soul", "count": 1, "enchant": 3},
+    {"item_key": 14201, "name": "Plate Boots of Cursed Soul", "count": 1, "enchant": 3}
+  ]
+}

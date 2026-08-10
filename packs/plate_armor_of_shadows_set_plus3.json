@@ -1,0 +1,13 @@
+{
+  "name": "Armor of Shadows Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Armor of Shadows plate set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 1000380, "name": "Plate Helm of the Shadows", "count": 1, "enchant": 3},
+    {"item_key": 1000225, "name": "Plate Armor of the Shadows", "count": 1, "enchant": 3},
+    {"item_key": 1000381, "name": "Plate Gloves of the Shadows", "count": 1, "enchant": 3},
+    {"item_key": 1000382, "name": "Plate Boots of the Shadows", "count": 1, "enchant": 3}
+  ]
+}

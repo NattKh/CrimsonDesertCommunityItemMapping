@@ -1,0 +1,13 @@
+{
+  "name": "Luon Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Luon plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 2101010, "name": "Luon Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 2111053, "name": "Luon Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 121054, "name": "Luon Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 1163503, "name": "Luon Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

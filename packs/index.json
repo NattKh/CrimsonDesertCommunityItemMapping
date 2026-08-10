@@ -1,116 +1,140 @@
 {
-  "packs": [
-    {
-      "filename": "all_dyes.json",
-      "name": "Dye",
-      "author": "Hatrack",
-      "description": "All Dyes",
-      "itemCount": 60,
-      "version": 1
-    },
-    {
-      "filename": "beloth_armor___armor_of_shadows_set_base.json",
-      "name": "Beloth Armor / Armor Of Shadows Set Base",
-      "author": "Ruben",
-      "description": "Armor of shadows with level 3 enchant",
-      "itemCount": 5,
-      "version": 1
-    },
-    {
-      "filename": "greater_abyssal_gear_s.json",
-      "name": "Greater Abyssal Gear's",
-      "author": "Ruben",
-      "description": "Gives you all the grater abyssal gear's / They have durability be aware",
-      "itemCount": 13,
-      "version": 1
-    },
-    {
-      "filename": "blackstar_dragon_no_cooldown.json",
-      "name": "BlackStar Dragon No Cooldown",
-      "author": "RicePaddy",
-      "description": "Swap a consumable to 20x Narima's Horn — instant Dragon cooldown reset",
-      "itemCount": 1,
-      "version": 1
-    },
-    {
-      "filename": "dye_pack_1.json",
-      "name": "Dye Pack 1",
-      "author": "Hatrack",
-      "description": "Dyes 1-5: Red to Red",
-      "itemCount": 5,
-      "version": 1
-    },
-    {
-      "filename": "dye_pack_2.json",
-      "name": "Dye Pack 2",
-      "author": "Hatrack",
-      "description": "Dyes 6-10: Violet to Violet",
-      "itemCount": 5,
-      "version": 1
-    },
-    {
-      "filename": "dye_pack_3.json",
-      "name": "Dye Pack 3",
-      "author": "Hatrack",
-      "description": "Dyes 11-15: Purple to Purple",
-      "itemCount": 5,
-      "version": 1
-    },
-    {
-      "filename": "dye_pack_4.json",
-      "name": "Dye Pack 4",
-      "author": "Hatrack",
-      "description": "Dyes 16-20: Blue to Blue",
-      "itemCount": 5,
-      "version": 1
-    },
-    {
-      "filename": "dye_pack_5.json",
-      "name": "Dye Pack 5",
-      "author": "Hatrack",
-      "description": "Dyes 21-25: Sky Blue to Sky Blue",
-      "itemCount": 5,
-      "version": 1
-    },
-    {
-      "filename": "dye_pack_6.json",
-      "name": "Dye Pack 6",
-      "author": "Hatrack",
-      "description": "Dyes 26-30: Teal to Teal",
-      "itemCount": 5,
-      "version": 1
-    },
-    {
-      "filename": "dye_pack_7.json",
-      "name": "Dye Pack 7",
-      "author": "Hatrack",
-      "description": "Dyes 31-35: Green to Green",
-      "itemCount": 5,
-      "version": 1
-    },
-    {
-      "filename": "dye_pack_8.json",
-      "name": "Dye Pack 8",
-      "author": "Hatrack",
-      "description": "Dyes 36-40: Spring Green to Spring Green",
-      "itemCount": 5,
-      "version": 1
-    },
-    {
-      "filename": "dye_pack_9.json",
-      "name": "Dye Pack 9",
-      "author": "Hatrack",
-      "description": "Dyes 41-45: Yellow to Yellow",
-      "itemCount": 5,
-      "version": 1
-    },
-    {
-      "filename": "dye_pack_10.json",
-      "name": "Dye Pack 10",
-      "author": "Hatrack",
-      "description": "Dyes 46-50: Orange to Orange",
-      "itemCount": 5,
-      "version": 1
-    }
-  ]
+    "packs":  [
+                  {
+                      "filename":  "all_dyes.json",
+                      "name":  "Dye",
+                      "author":  "Hatrack",
+                      "description":  "All Dyes",
+                      "itemCount":  60,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "beloth_armor___armor_of_shadows_set_base.json",
+                      "name":  "Beloth Armor / Armor Of Shadows Set Base",
+                      "author":  "Ruben",
+                      "description":  "Armor of shadows with level 3 enchant",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "greater_abyssal_gear_s.json",
+                      "name":  "Greater Abyssal Gear\u0027s",
+                      "author":  "Ruben",
+                      "description":  "Gives you all the grater abyssal gear\u0027s / They have durability be aware",
+                      "itemCount":  13,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "blackstar_dragon_no_cooldown.json",
+                      "name":  "BlackStar Dragon No Cooldown",
+                      "author":  "RicePaddy",
+                      "description":  "Swap a consumable to 20x Narima\u0027s Horn — instant Dragon cooldown reset",
+                      "itemCount":  1,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "dye_pack_1.json",
+                      "name":  "Dye Pack 1",
+                      "author":  "Hatrack",
+                      "description":  "Dyes 1-5: Red to Red",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "dye_pack_2.json",
+                      "name":  "Dye Pack 2",
+                      "author":  "Hatrack",
+                      "description":  "Dyes 6-10: Violet to Violet",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "dye_pack_3.json",
+                      "name":  "Dye Pack 3",
+                      "author":  "Hatrack",
+                      "description":  "Dyes 11-15: Purple to Purple",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "dye_pack_4.json",
+                      "name":  "Dye Pack 4",
+                      "author":  "Hatrack",
+                      "description":  "Dyes 16-20: Blue to Blue",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "dye_pack_5.json",
+                      "name":  "Dye Pack 5",
+                      "author":  "Hatrack",
+                      "description":  "Dyes 21-25: Sky Blue to Sky Blue",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "dye_pack_6.json",
+                      "name":  "Dye Pack 6",
+                      "author":  "Hatrack",
+                      "description":  "Dyes 26-30: Teal to Teal",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "dye_pack_7.json",
+                      "name":  "Dye Pack 7",
+                      "author":  "Hatrack",
+                      "description":  "Dyes 31-35: Green to Green",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "dye_pack_8.json",
+                      "name":  "Dye Pack 8",
+                      "author":  "Hatrack",
+                      "description":  "Dyes 36-40: Spring Green to Spring Green",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "dye_pack_9.json",
+                      "name":  "Dye Pack 9",
+                      "author":  "Hatrack",
+                      "description":  "Dyes 41-45: Yellow to Yellow",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "dye_pack_10.json",
+                      "name":  "Dye Pack 10",
+                      "author":  "Hatrack",
+                      "description":  "Dyes 46-50: Orange to Orange",
+                      "itemCount":  5,
+                      "version":  1
+                  },
+                  {
+                      "author":  "Tiger3x",
+                      "name":  "Kairos Plate Armor Set +3",
+                      "itemCount":  5,
+                      "description":  "Complete Kairos plate set with level 3 enchant.",
+                      "filename":  "kairos_plate_armor_set_plus3.json",
+                      "version":  1
+                  },
+                  {
+                      "author":  "Tiger3x",
+                      "name":  "Aeserion Melee Arsenal +3",
+                      "itemCount":  9,
+                      "description":  "Aeserion melee weapon collection with level 3 upgrade.",
+                      "filename":  "aeserion_melee_arsenal_plus3.json",
+                      "version":  1
+                  },
+                  {
+                      "author":  "Tiger3x",
+                      "name":  "Aeserion Ranged and Special Weapons +3",
+                      "itemCount":  3,
+                      "description":  "Aeserion ranged and special weapon collection with level 3 upgrade.",
+                      "filename":  "aeserion_ranged_and_special_weapons_plus3.json",
+                      "version":  1
+                  }
+              ]
 }

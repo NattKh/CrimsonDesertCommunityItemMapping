@@ -1,0 +1,18 @@
+{
+  "name": "Aeserion Melee Arsenal +3",
+  "author": "Tiger3x",
+  "description": "Aeserion melee weapon collection with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 13811, "name": "Aeserion Sword", "count": 1, "enchant": 3},
+    {"item_key": 14703, "name": "Aeserion Greathammer", "count": 1, "enchant": 3},
+    {"item_key": 15000, "name": "Aeserion Halberd", "count": 1, "enchant": 3},
+    {"item_key": 15700, "name": "Aeserion Spear", "count": 1, "enchant": 3},
+    {"item_key": 221000, "name": "Aeserion Mace", "count": 1, "enchant": 3},
+    {"item_key": 231000, "name": "Aeserion Dagger", "count": 1, "enchant": 3},
+    {"item_key": 241000, "name": "Aeserion Longsword", "count": 1, "enchant": 3},
+    {"item_key": 251000, "name": "Aeserion Greataxe", "count": 1, "enchant": 3},
+    {"item_key": 261000, "name": "Aeserion Warhammer", "count": 1, "enchant": 3}
+  ]
+}

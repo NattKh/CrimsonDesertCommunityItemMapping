@@ -1,0 +1,13 @@
+{
+  "name": "Tarandus Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Tarandus plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 101046, "name": "Tarandus Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 111039, "name": "Tarandus Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 121025, "name": "Tarandus Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 133164, "name": "Tarandus Leather Boots", "count": 1, "enchant": 3}
+  ]
+}

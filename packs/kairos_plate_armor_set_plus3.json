@@ -1,0 +1,14 @@
+{
+  "name": "Kairos Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Kairos plate set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 1000521, "name": "Kairos Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 1000524, "name": "Kairos Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 1000546, "name": "Kairos Cloak", "count": 1, "enchant": 3},
+    {"item_key": 1000560, "name": "Kairos Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 1000567, "name": "Kairos Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Valortread Plate Armor Set +3",
+  "author": "Tiger3x",
+  "description": "Complete Valortread plate armor set with level 3 upgrade.",
+  "version": 1,
+  "created": "2026-08-09",
+  "items": [
+    {"item_key": 1000992, "name": "Valortread Plate Helm", "count": 1, "enchant": 3},
+    {"item_key": 1000953, "name": "Valortread Plate Armor", "count": 1, "enchant": 3},
+    {"item_key": 1000985, "name": "Valortread Plate Gloves", "count": 1, "enchant": 3},
+    {"item_key": 1000872, "name": "Valortread Plate Boots", "count": 1, "enchant": 3}
+  ]
+}

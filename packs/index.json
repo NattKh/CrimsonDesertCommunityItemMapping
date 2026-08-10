@@ -135,6 +135,142 @@
                       "description":  "Aeserion ranged and special weapon collection with level 3 upgrade.",
                       "filename":  "aeserion_ranged_and_special_weapons_plus3.json",
                       "version":  1
+                  },
+                  {
+                      "filename":  "ashad_plate_armor_set_plus3.json",
+                      "name":  "Ashad Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Ashad plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "belkandor_plate_armor_set_plus3.json",
+                      "name":  "Belkandor Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Belkandor plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "cursed_soul_plate_armor_set_plus3.json",
+                      "name":  "Cursed Soul Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Cursed Soul plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "full_moon_reaper_plate_armor_set_plus3.json",
+                      "name":  "Full Moon Reaper Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Full Moon Reaper plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "grotevant_plate_armor_set_plus3.json",
+                      "name":  "Grotevant Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Grotevant plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "guard_captain_plate_armor_set_plus3.json",
+                      "name":  "Guard Captain Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Guard Captain plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "half_moon_reaper_plate_armor_set_plus3.json",
+                      "name":  "Half Moon Reaper Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Half Moon Reaper plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "lightning_bolt_plate_armor_set_plus3.json",
+                      "name":  "Lightning Bolt Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Lightning Bolt plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "luon_plate_armor_set_plus3.json",
+                      "name":  "Luon Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Luon plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "new_moon_reaper_plate_armor_set_plus3.json",
+                      "name":  "New Moon Reaper Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete New Moon Reaper plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "odecks_protector_plate_armor_set_plus3.json",
+                      "name":  "Odeck\u0027s Protector Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Odeck\u0027s Protector plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "plate_armor_of_shadows_set_plus3.json",
+                      "name":  "Armor of Shadows Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Armor of Shadows plate set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "raging_tempest_plate_armor_set_plus3.json",
+                      "name":  "Raging Tempest Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Raging Tempest plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "riding_attire_set_plus3.json",
+                      "name":  "Riding Attire Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete riding attire set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "solas_plate_armor_set_plus3.json",
+                      "name":  "Solas Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Solas plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "tarandus_plate_armor_set_plus3.json",
+                      "name":  "Tarandus Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Tarandus plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
+                  },
+                  {
+                      "filename":  "valortread_plate_armor_set_plus3.json",
+                      "name":  "Valortread Plate Armor Set +3",
+                      "author":  "Tiger3x",
+                      "description":  "Complete Valortread plate armor set with level 3 upgrade.",
+                      "itemCount":  4,
+                      "version":  1
                   }
               ]
 }
